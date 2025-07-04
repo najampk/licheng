@@ -127,7 +127,6 @@ const FactoryTourSection: React.FC = () => {
             </svg>
             Schedule Factory Visit
           </Button>
-
         </div>
       </div>
     </section>

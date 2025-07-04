@@ -3,7 +3,7 @@ import { Separator } from '@/components/ui/separator';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const Footer: React.FC = () => {
+export const Footer: React.FC = () => {
   const productCategories = [
     'Excavator Parts', 'Bulldozer Components', 'Crane Parts', 'Engine Components',
     'Hydraulic Systems', 'Wear-resistant Parts', 'Consumable Parts', 'Transmission Systems'

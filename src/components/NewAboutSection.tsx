@@ -1,4 +1,5 @@
 import React from 'react';
+import { Target, Users, Cog } from 'lucide-react';
 
 const NewAboutSection: React.FC = () => {
   return (
@@ -59,6 +60,9 @@ const NewAboutSection: React.FC = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-8">Our Core Competitiveness</h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="flex justify-center mb-4">
+                <Target className="h-12 w-12 text-yellow-600" />
+              </div>
               <h4 className="text-lg font-semibold text-yellow-600 mb-3">Precise Supply Chain</h4>
               <p className="text-gray-600 text-sm">
                 Strategic cooperation with global first-line brands and domestic leading manufacturers, 
@@ -66,6 +70,9 @@ const NewAboutSection: React.FC = () => {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="flex justify-center mb-4">
+                <Users className="h-12 w-12 text-yellow-600" />
+              </div>
               <h4 className="text-lg font-semibold text-yellow-600 mb-3">Professional Team</h4>
               <p className="text-gray-600 text-sm">
                 Compound expertise in mechanical engineering, international trade, and supply chain 
@@ -73,6 +80,9 @@ const NewAboutSection: React.FC = () => {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="flex justify-center mb-4">
+                <Cog className="h-12 w-12 text-yellow-600" />
+              </div>
               <h4 className="text-lg font-semibold text-yellow-600 mb-3">Full-Chain Solutions</h4>
               <p className="text-gray-600 text-sm">
                 Complete services including import/export agency, international logistics, 

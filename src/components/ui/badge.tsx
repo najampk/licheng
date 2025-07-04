@@ -9,18 +9,18 @@ const badgeVariants = cva(
     variants: {
       variant: {
         default:
-          "border-transparent bg-primary text-primary-foreground hover:shadow-[0_0_10px_rgba(255,255,255,0.6)]",
+          "border-transparent bg-primary text-primary-foreground hover:bg-primary/80",
         secondary:
-          "border-transparent bg-secondary text-secondary-foreground hover:shadow-[0_0_10px_rgba(255,255,255,0.6)]",
+          "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive:
-          "border-transparent bg-destructive text-destructive-foreground hover:shadow-[0_0_10px_rgba(255,255,255,0.6)]",
-        outline: "text-foreground border-border hover:shadow-[0_0_6px_rgba(255,255,255,0.4)]",
+          "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
+        outline: "text-foreground border-border",
         success:
-          "border-transparent bg-green-500/20 text-green-700 dark:text-green-300 border-green-500/30 hover:shadow-[0_0_10px_rgba(34,197,94,0.4)]",
+          "border-transparent bg-green-500/20 text-green-700 dark:text-green-300 border-green-500/30",
         warning:
-          "border-transparent bg-yellow-500/20 text-yellow-700 dark:text-yellow-300 border-yellow-500/30 hover:shadow-[0_0_10px_rgba(251,191,36,0.4)]",
+          "border-transparent bg-yellow-500/20 text-yellow-700 dark:text-yellow-300 border-yellow-500/30",
         info:
-          "border-transparent bg-primary/10 text-primary border-primary/30 hover:shadow-[0_0_10px_rgba(96,165,250,0.3)]",
+          "border-transparent bg-primary/10 text-primary border-primary/30",
       },
       size: {
         default: "px-2.5 py-0.5 text-xs",
@@ -34,7 +34,6 @@ const badgeVariants = cva(
     },
   }
 )
-
 
 export interface BadgeProps
   extends React.HTMLAttributes<HTMLDivElement>,

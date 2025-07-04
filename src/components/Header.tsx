@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu } from 'lucide-react';
 import MobileMenu from './MobileMenu';
+import ProductDropdown from './ProductDropdown';
 
-const Header: React.FC = () => {
+export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -53,14 +54,7 @@ const Header: React.FC = () => {
               >
                 Home
               </button>
-              <button
-                onClick={() => scrollToSection('products')}
-                className={`font-medium transition-colors duration-300 hover:text-yellow-500 ${
-                  isScrolled ? 'text-gray-800' : 'text-white'
-                }`}
-              >
-                Products
-              </button>
+              <ProductDropdown isScrolled={isScrolled} />
               <button
                 onClick={() => scrollToSection('about')}
                 className={`font-medium transition-colors duration-300 hover:text-yellow-500 ${
@@ -77,28 +71,6 @@ const Header: React.FC = () => {
               >
                 Contact Us
               </button>
-              <a
-              href="https://qzrw.en.alibaba.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 text-sm rounded-full transition-colors"
-            >
-              Alibaba Store
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-5 h-5 ml-2"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                />
-              </svg>
-            </a>
 
               <Button 
                 className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-2 px-4 text-sm rounded-full transition-colors"
