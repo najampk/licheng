@@ -4,11 +4,44 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Mail, Phone, MapPin, Star, Shield, Truck, Award } from 'lucide-react'
-import { sampleProduct } from '@/data/products'
+import {
+  sampleProduct,
+  hydraulicPumpProducts,
+  hydraulicCrusherProducts,
+  extendedArmProducts,
+  extendedArmCylinderProducts,
+  swingBearingsProducts,
+  cuttingEdgeEndBitProducts,
+  bucketToothProducts,
+  bucketBushingProducts,
+  boltAndNutProducts,
+  bucketPinProducts,
+  hLinkSideLinkProducts,
+  rubberPadProducts,
+  rubberTrackProducts
+} from '@/data/products'
 
 export default function Product() {
+
   const { slug } = useParams<{ slug: string }>()
-  const product = slug === sampleProduct.slug ? sampleProduct : null
+  const allProducts = [
+    sampleProduct,
+    ...hydraulicPumpProducts,
+    ...hydraulicCrusherProducts,
+    ...extendedArmProducts,
+    ...extendedArmCylinderProducts,
+    ...swingBearingsProducts,
+    ...cuttingEdgeEndBitProducts,
+    ...bucketToothProducts,
+    ...bucketBushingProducts,
+    ...boltAndNutProducts,
+    ...bucketPinProducts,
+    ...hLinkSideLinkProducts,
+    ...rubberPadProducts,
+    ...rubberTrackProducts
+  ]
+  // Find product by slug
+  const product = allProducts.find((p) => p.slug === slug) || null
 
   if (!product) {
     return (
