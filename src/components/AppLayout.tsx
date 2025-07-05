@@ -26,7 +26,7 @@ const AppLayout: React.FC = () => {
       <CTAButton text="Explore Our Capabilities" />
       <section id="products">
         <ProductCategoriesTabs />
-        <CTAButton text="View All Products" />
+        <CTAButton text="View All Products" onClick={() => window.location.href = '/products'} />
       </section>
       <EngineeringSection />
       <CTAButton text="Explore Engineering Solutions" />
