@@ -23,12 +23,13 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   };
 
   return (
-    <section className="p-5 py-10 bg-yellow-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-lg shadow">
-      <div className="relative w-full max-w-full mx-auto aspect-video overflow-hidden rounded-lg bg-gray-100">
+    <section className="pb-6 bg-yellow-50 text-center transform duration-500 hover:-translate-y-2 cursor-pointer rounded-lg shadow">
+      <div className="relative w-full mx-auto aspect-square overflow-hidden rounded-lg bg-gray-100" style={{ maxWidth: 360, maxHeight: 360 }}>
         <img
           src={product.images[current]}
           alt={product.title}
-          className="w-full h-64 object-contain mx-auto"
+          className="w-full h-full object-contain mx-auto"
+          style={{ aspectRatio: '1 / 1', maxWidth: 360, maxHeight: 360 }}
         />
         {total > 1 && (
           <>
@@ -57,7 +58,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </>
         )}
       </div>
-      <div className="space-x-1 flex justify-center mt-10">
+      <div className="space-x-1  py-5 p-5 flex justify-center mt-10">
         {[...Array(5)].map((_, i) => (
           <svg
             key={i}
@@ -70,7 +71,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         ))}
       </div>
       <h1 className="text-3xl my-5">{product.title}</h1>
-      <p className="mb-5">{product.description}</p>
+      {/* <p className="mb-5">{product.description}</p> */}
       <h2 className="font-semibold mb-5">{product.availability}</h2>
       <button className="p-2 px-6 bg-yellow-500 text-white rounded-md hover:bg-yellow-600">Add To Cart</button>
     </section>

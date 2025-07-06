@@ -23,6 +23,12 @@ import {
   hLinkSideLinkProducts,
   rubberPadProducts,
   rubberTrackProducts,
+  topRollerProducts,
+  trackGuardProducts,
+  trackRollerProducts,
+  sprocketProducts,
+  idlerProducts,
+  trackShoeProducts
 } from "@/data/products";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -87,14 +93,9 @@ const productCategories = [
       "Complete range of undercarriage components for optimal machine mobility.",
     subcategories: [
       {
-        id: "track-roller",
-        name: "Track Roller",
-        description: "High-quality track rollers for smooth operation.",
-      },
-      {
-        id: "carrier-roller",
-        name: "Carrier Roller",
-        description: "Durable carrier rollers for track support.",
+        id: "idler",
+        name: "Idler",
+        description: "Reliable idlers for track tension control.",
       },
       {
         id: "sprocket",
@@ -102,19 +103,24 @@ const productCategories = [
         description: "Precision-engineered sprockets for track drive.",
       },
       {
-        id: "idler",
-        name: "Idler",
-        description: "Reliable idlers for track tension control.",
-      },
-      {
-        id: "track-link",
-        name: "Track Link",
-        description: "Strong track links for continuous track systems.",
+        id: "track-roller",
+        name: "Track Roller",
+        description: "Durable track rollers for undercarriage support.",
       },
       {
         id: "track-shoe",
         name: "Track Shoe",
         description: "Durable track shoes for various ground conditions.",
+      },
+      {
+        id: "top-roller",
+        name: "Top Roller",
+        description: "Durable top rollers for track support and stability.",
+      },
+      {
+        id: "track-guard",
+        name: "Track Guard",
+        description: "Steel track guards for undercarriage protection.",
       },
     ],
   },
@@ -162,11 +168,7 @@ const productCategories = [
         name: "H-Link & Side Link",
         description: "Precision H-links and side links for excavator buckets.",
       },
-      {
-        id: "custom-orders",
-        name: "Custom Orders",
-        description: "Tailored solutions designed to meet your specific needs.",
-      },
+     
     ],
   },
 ];
@@ -213,7 +215,7 @@ export const ProductCategories: React.FC = () => {
       </div>
 
       {/* Categories Section */}
-      <div id="categories" className="pt-16 flex">
+      <div id="categories" className="py-16 flex">
         <ProductCategorySidebar
           categories={productCategories}
           activeCategory={activeCategory}
@@ -224,7 +226,44 @@ export const ProductCategories: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {(() => {
               let products = [];
-              if (activeCategory === "hydraulic-pump")
+              // Parent category logic
+              if (activeCategory === "excavator-attachments") {
+                products = [
+                  ...extendedArmProducts,
+                  ...swingBearingsProducts,
+                  ...hydraulicCrusherProducts,
+                  ...hydraulicPumpProducts,
+                  ...extendedArmCylinderProducts
+                ];
+              } else if (activeCategory === "ground-engaging-tools") {
+                products = [
+                  ...cuttingEdgeEndBitProducts,
+                  ...bucketToothProducts
+                ];
+              } else if (activeCategory === "undercarriage-parts") {
+                products = [
+                  ...idlerProducts,
+                  ...sprocketProducts,
+                  ...trackRollerProducts,
+                  ...trackShoeProducts,
+                  ...topRollerProducts,
+                  ...trackGuardProducts
+                ];
+              } else if (activeCategory === "rubber-components") {
+                products = [
+                  ...rubberTrackProducts,
+                  ...rubberPadProducts
+                ];
+              } else if (activeCategory === "other-components") {
+                products = [
+                  ...bucketBushingProducts,
+                  ...bucketPinProducts,
+                  ...boltAndNutProducts,
+                  ...hLinkSideLinkProducts
+                ];
+              }
+              // Subcategory logic
+              else if (activeCategory === "hydraulic-pump")
                 products = hydraulicPumpProducts;
               else if (activeCategory === "hydraulic-crusher")
                 products = hydraulicCrusherProducts;
@@ -236,7 +275,7 @@ export const ProductCategories: React.FC = () => {
                 products = swingBearingsProducts;
               else if (activeCategory === "cutting-edge-end-bit")
                 products = cuttingEdgeEndBitProducts;
-   else if (activeCategory === "bulldozer-tooth")
+              else if (activeCategory === "bulldozer-tooth")
                 products = bucketToothProducts;
               else if (activeCategory === "bolt-and-nut")
                 products = boltAndNutProducts;
@@ -250,6 +289,18 @@ export const ProductCategories: React.FC = () => {
                 products = rubberPadProducts;
               else if (activeCategory === "rubber-track")
                 products = rubberTrackProducts;
+              else if (activeCategory === "top-roller")
+                products = topRollerProducts;
+              else if (activeCategory === "track-guard")
+                products = trackGuardProducts;
+              else if (activeCategory === "track-roller")
+                products = trackRollerProducts;
+              else if (activeCategory === "idler")
+                products = idlerProducts;
+              else if (activeCategory === "sprocket")
+                products = sprocketProducts;
+              else if (activeCategory === "track-shoe")
+                products = trackShoeProducts;
               // Add more categories as needed
               return products.map((product) => (
                 <ProductCard key={product.id} product={product} />

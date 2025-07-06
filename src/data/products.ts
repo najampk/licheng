@@ -1,3 +1,679 @@
+// Idler products
+export const idlerProducts: Product[] = [
+  {
+    id: "ID-001",
+    title: "Genuine PC210 Excavator Front Idler Wheel",
+    slug: "genuine-pc210-excavator-front-idler-wheel",
+    category: "Idler",
+    description: "Genuine PC210 excavator front idler wheel, engineered for durability and smooth operation.",
+    features: [
+      "PC210 compatible",
+      "High durability",
+      "Smooth operation",
+      "OEM quality"
+    ],
+    applications: [
+      "PC210 excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/Idler/genuine-pc210-excavator-front-idler-wheel/Haf789105d3fe44ed8e88ca53f68da78fi.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["idler", "pc210", "excavator", "front wheel"]
+  },
+  {
+    id: "ID-002",
+    title: "Hyundai R450-7 Excavator ISO9001 Certified Construction",
+    slug: "hyunda-r450-7-excavator-iso9001-certified-construction",
+    category: "Idler",
+    description: "Hyundai R450-7 excavator idler, ISO9001 certified for construction and reliability.",
+    features: [
+      "Hyundai R450-7 compatible",
+      "ISO9001 certified",
+      "Heavy-duty construction",
+      "Long service life"
+    ],
+    applications: [
+      "Hyundai R450-7 excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/Idler/hyunda-r450-7-excavator-iso9001-certified-construction/H5bc5665d113c4032be3396663d926725d.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["idler", "hyundai", "r450-7", "iso9001"]
+  },
+  {
+    id: "ID-003",
+    title: "PC400-6 Excavator Front Idler New Used",
+    slug: "pc400-6-excavator-front-idler-new-used",
+    category: "Idler",
+    description: "PC400-6 excavator front idler, available new and used, for reliable undercarriage performance.",
+    features: [
+      "PC400-6 compatible",
+      "New and used options",
+      "Reliable performance",
+      "Durable steel"
+    ],
+    applications: [
+      "PC400-6 excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/Idler/pc400-6-excavator-front-idler-new-used/Hc36a0d2023d64bceb8e10de19d2c8be4i.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["idler", "pc400-6", "excavator", "front idler"]
+  },
+  {
+    id: "ID-004",
+    title: "Takeuchi Excavator Driving Wheel",
+    slug: "takeuchi-excavator-driving-wheel",
+    category: "Idler",
+    description: "Takeuchi excavator driving wheel idler, designed for strength and smooth operation.",
+    features: [
+      "Takeuchi compatible",
+      "High strength",
+      "Smooth operation",
+      "Durable steel"
+    ],
+    applications: [
+      "Takeuchi excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/Idler/takeuchi-excavator-driving-wheel/H7e9292212b974b0694b6200f92ec55bdO.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["idler", "takeuchi", "excavator", "driving wheel"]
+  }
+];
+// Track-roller products
+export const trackRollerProducts: Product[] = [
+  {
+    id: "TRR-001",
+    title: "320-334-x320-x331-excavator-track-roller",
+    slug: "320-334-x320-x331-excavator-track-roller",
+    category: "track-roller",
+    description: "Track roller for 320, 334, X320, X331 excavators, designed for durability and smooth operation.",
+    features: [
+      "Fits 320, 334, X320, X331",
+      "High durability",
+      "Smooth operation",
+      "OEM quality"
+    ],
+    applications: [
+      "320, 334, X320, X331 excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "/images/Products/undercarriage-parts/track-roller/320-334-x320-x331-excavator-track-roller/H4a22b91e69854df58b1b55d970158cf27.jpg_720x720.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track roller", "320", "334", "x320", "x331", "excavator"]
+  },
+  {
+    id: "TRR-002",
+    title: "mini-excavator-3024d-3027d-386-0791",
+    slug: "mini-excavator-3024d-3027d-386-0791",
+    category: "track-roller",
+    description: "Track roller for mini excavator 3024D, 3027D, 386-0791, engineered for strength and reliability.",
+    features: [
+      "Fits 3024D, 3027D, 386-0791",
+      "Mini excavator compatible",
+      "Durable steel",
+      "Easy to install"
+    ],
+    applications: [
+      "Mini excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-roller/mini-excavator-3024d-3027d-386-0791/H563fc90224dc44c2a155bab3f74c2f7bL.png_720x720.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track roller", "mini excavator", "3024d", "3027d", "386-0791"]
+  },
+  {
+    id: "TRR-003",
+    title: "new-d6h-d6r-sfdf-track-roller-bottom-roller",
+    slug: "new-d6h-d6r-sfdf-track-roller-bottom-roller",
+    category: "track-roller",
+    description: "New D6H D6R SFDF track roller bottom roller for heavy-duty earthmoving equipment.",
+    features: [
+      "Fits D6H, D6R, SFDF",
+      "Bottom roller design",
+      "Heavy-duty construction",
+      "Long service life"
+    ],
+    applications: [
+      "D6H, D6R, SFDF equipment",
+      "Undercarriage systems",
+      "Earthmoving",
+      "Replacement rollers"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-roller/new-d6h-d6r-sfdf-track-roller-bottom-roller/H5b4f7bc9693c42ea9eacaddc3636044fn.jpg_720x720q5.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track roller", "d6h", "d6r", "sfdf", "bottom roller"]
+  },
+  {
+    id: "TRR-004",
+    title: "new-skid-steer-undercarriage-rubber-track",
+    slug: "new-skid-steer-undercarriage-rubber-track",
+    category: "track-roller",
+    description: "Track roller for new skid steer undercarriage with rubber track, designed for durability and performance.",
+    features: [
+      "Fits new skid steer",
+      "Rubber track compatible",
+      "Durable construction",
+      "Easy installation"
+    ],
+    applications: [
+      "Skid steer loaders",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement rollers"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-roller/new-skid-steer-undercarriage-rubber-track/H2fb56308d20c4a1b99bbf80a1e74699ej.png_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track roller", "skid steer", "undercarriage", "rubber track"]
+  }
+];
+// Top-roller products
+export const topRollerProducts: Product[] = [
+  {
+    id: "TR-001",
+    title: "excav-pc200-8-pc300-8-pc350-top-roller",
+    slug: "excav-pc200-8-pc300-8-pc350-top-roller",
+    category: "top-roller",
+    description: "Top roller for PC200-8, PC300-8, and PC350 excavators, designed for durability and smooth operation.",
+    features: [
+      "Fits PC200-8, PC300-8, PC350",
+      "High durability",
+      "Smooth operation",
+      "OEM quality"
+    ],
+    applications: [
+      "PC200-8, PC300-8, PC350 excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/top-roller/excav-pc200-8-pc300-8-pc350-top-roller/H9bf8c60a16fe4826936b96263cc3b066Y.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["top roller", "pc200-8", "pc300-8", "pc350", "excavator"]
+  },
+  {
+    id: "TR-002",
+    title: "excav-pc200-pc300-8-top-roller-97077640",
+    slug: "excav-pc200-pc300-8-top-roller-97077640",
+    category: "top-roller",
+    description: "Top roller for PC200 and PC300-8 excavators, model 97077640, engineered for strength and reliability.",
+    features: [
+      "Fits PC200, PC300-8",
+      "Model 97077640",
+      "High strength",
+      "Reliable performance"
+    ],
+    applications: [
+      "PC200, PC300-8 excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/top-roller/excav-pc200-pc300-8-top-roller-97077640/Hc03debb255114da080b84ffe27ba6d1df.png_720x720q5.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["top roller", "pc200", "pc300-8", "97077640", "excavator"]
+  },
+  {
+    id: "TR-003",
+    title: "heavy-duty-stainless-steel-idler-roller-earthwork",
+    slug: "heavy-duty-stainless-steel-idler-roller-earthwork",
+    category: "top-roller",
+    description: "Heavy-duty stainless steel idler roller for earthwork machinery, built for long service life.",
+    features: [
+      "Heavy-duty stainless steel",
+      "Long service life",
+      "Earthwork compatible",
+      "Corrosion resistant"
+    ],
+    applications: [
+      "Earthwork machinery",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement rollers"
+    ],
+    specifications: {
+      material: "Stainless steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/top-roller/heavy-duty-stainless-steel-idler-roller-earthwork/H1ca0757a9a1c46c6ad2564a515070f37a.jpg_720x720q.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["top roller", "idler roller", "stainless steel", "earthwork"]
+  },
+  {
+    id: "TR-004",
+    title: "mini-excavator-ec35-top-roller-carrier-roller",
+    slug: "mini-excavator-ec35-top-roller-carrier-roller",
+    category: "top-roller",
+    description: "Top roller/carrier roller for mini excavator EC35, designed for smooth operation and durability.",
+    features: [
+      "Fits mini excavator EC35",
+      "Carrier roller design",
+      "Smooth operation",
+      "Durable construction"
+    ],
+    applications: [
+      "Mini excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement rollers"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/top-roller/mini-excavator-ec35-top-roller-carrier-roller/H1245e95b9a5e485abedf4084ec9ddf44Q.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["top roller", "mini excavator", "ec35", "carrier roller"]
+  }
+];
+// Track-guard products
+export const trackGuardProducts: Product[] = [
+  {
+    id: "TG-001",
+    title: "cheaper-price-new-steel-undercarriage-parts",
+    slug: "cheaper-price-new-steel-undercarriage-parts",
+    category: "track-guard",
+    description: "Affordable new steel track guard undercarriage parts for excavators and dozers.",
+    features: [
+      "Cheaper price",
+      "New steel construction",
+      "Undercarriage protection",
+      "Easy installation"
+    ],
+    applications: [
+      "Excavators",
+      "Dozers",
+      "Undercarriage systems",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-guard/cheaper-price-new-steel-undercarriage-parts/H9edffc4226b4495ab754f2ded0ba31c8z.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track guard", "undercarriage", "steel", "cheaper price"]
+  },
+  {
+    id: "TG-002",
+    title: "excavator-dozer-parts-pc200-sk210-sh200",
+    slug: "excavator-dozer-parts-pc200-sk210-sh200",
+    category: "track-guard",
+    description: "Track guard for excavator and dozer parts, compatible with PC200, SK210, SH200.",
+    features: [
+      "Fits PC200, SK210, SH200",
+      "Excavator and dozer compatible",
+      "Durable steel",
+      "Easy to install"
+    ],
+    applications: [
+      "Excavators",
+      "Dozers",
+      "Undercarriage systems",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-guard/excavator-dozer-parts-pc200-sk210-sh200/H883da6131fdf45bd8b69e8a0e30cf3afm.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track guard", "excavator", "dozer", "pc200", "sk210", "sh200"]
+  },
+  {
+    id: "TG-003",
+    title: "high-quality-excavator-track-chain-guard",
+    slug: "high-quality-excavator-track-chain-guard",
+    category: "track-guard",
+    description: "High-quality excavator track chain guard for superior undercarriage protection.",
+    features: [
+      "High quality",
+      "Track chain guard",
+      "Superior protection",
+      "Long service life"
+    ],
+    applications: [
+      "Excavators",
+      "Undercarriage systems",
+      "Track chain protection",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-guard/high-quality-excavator-track-chain-guard/H7aebacb698b2417b9475bd8f9f640bb31.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track guard", "excavator", "track chain", "high quality"]
+  },
+  {
+    id: "TG-004",
+    title: "high-quality-pc120-excavator-spare-parts",
+    slug: "high-quality-pc120-excavator-spare-parts",
+    category: "track-guard",
+    description: "High-quality PC120 excavator spare parts track guard for reliable undercarriage protection.",
+    features: [
+      "PC120 compatible",
+      "High quality",
+      "Reliable protection",
+      "Durable steel"
+    ],
+    applications: [
+      "PC120 excavators",
+      "Undercarriage systems",
+      "Spare parts",
+      "Replacement track guard"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-guard/high-quality-pc120-excavator-spare-parts/H1d439ea40e624c30a846ff211c86a3128.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track guard", "pc120", "excavator", "spare parts"]
+  }
+];
+
+// Sprocket products
+export const sprocketProducts: Product[] = [
+  {
+    id: "SP-001",
+    title: "Mini Excavator 35C 2039666 2036570 Sprocket",
+    slug: "mini-excavator-35c-2039666-2036570-sprocket",
+    category: "Sprocket",
+    description: "Sprocket for mini excavator 35C, compatible with 2039666 and 2036570, designed for durability and performance.",
+    features: [
+      "Fits mini excavator 35C",
+      "Compatible with 2039666, 2036570",
+      "High durability",
+      "Precision engineering"
+    ],
+    applications: [
+      "Mini excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/Sprocket/mini-excavator-35c-2039666-2036570-sprocket/H9b144a42cff64e58bfdef44d67856d00e.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["sprocket", "mini excavator", "35c", "2039666", "2036570"]
+  },
+  {
+    id: "SP-002",
+    title: "New 332P5846 Mini Track Undercarriage Sprocket",
+    slug: "new-332p5846-mini-track-undercarriage",
+    category: "Sprocket",
+    description: "New 332P5846 mini track undercarriage sprocket, engineered for strength and long service life.",
+    features: [
+      "332P5846 compatible",
+      "Mini track undercarriage",
+      "High strength",
+      "Long service life"
+    ],
+    applications: [
+      "Mini excavators",
+      "Track systems",
+      "Undercarriage parts",
+      "Replacement sprockets"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/Sprocket/new-332p5846-mini-track-undercarriage/Addafb080979e4c67b15926c2f729da2dU.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["sprocket", "332p5846", "mini track", "undercarriage"]
+  },
+  {
+    id: "SP-003",
+    title: "New 864 T200 T250 T300 T320 T630 T650 T740 T750 T770 T870 Sprocket",
+    slug: "new-864-t200-t250-t300-t320-t630-t650-t740-t750-t770-t870",
+    category: "Sprocket",
+    description: "Sprocket for 864, T200, T250, T300, T320, T630, T650, T740, T750, T770, T870 models, designed for robust performance.",
+    features: [
+      "Fits 864, T200, T250, T300, T320, T630, T650, T740, T750, T770, T870",
+      "Robust construction",
+      "Precision fit",
+      "Long lifespan"
+    ],
+    applications: [
+      "Track loaders",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement parts"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/Sprocket/new-864-t200-t250-t300-t320-t630-t650-t740-t750-t770-t870/Addafb080979e4c67b15926c2f729da2dU.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["sprocket", "864", "t200", "t250", "t300", "t320", "t630", "t650", "t740", "t750", "t770", "t870"]
+  },
+  {
+    id: "SP-004",
+    title: "SK13 SK15 SK17 SK25 SK45SR SK100 New Excavator Sprocket",
+    slug: "sk13-sk15-sk17-sk25-sk45sr-sk100-new-excavator",
+    category: "Sprocket",
+    description: "Sprocket for SK13, SK15, SK17, SK25, SK45SR, SK100 new excavators, built for durability and compatibility.",
+    features: [
+      "Fits SK13, SK15, SK17, SK25, SK45SR, SK100",
+      "Durable steel",
+      "High compatibility",
+      "Easy installation"
+    ],
+    applications: [
+      "Excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement sprockets"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/Sprocket/sk13-sk15-sk17-sk25-sk45sr-sk100-new-excavator/H471ff33dbea74fa9860a23c71da33634E.png_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["sprocket", "sk13", "sk15", "sk17", "sk25", "sk45sr", "sk100", "excavator"]
+  }
+];
 // Rubber-track products
 export const rubberTrackProducts: Product[] = [
   {
@@ -530,7 +1206,7 @@ export const bucketPinProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "images/Products/other-components/bucket-pin/new-sk210-excavator-bucket-pin-70477.avif"
+      "images/Products/other-components/bucket-pin/new-sk210-excavator-bucket-pin-70477/H1fa2daa14e4742d588c29207ebd0ec3fn.jpg_720x720q50.avif"
     ],
     certifications: ["ISO 9001"],
     availability: "In Stock",
@@ -701,7 +1377,7 @@ export const boltAndNutProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "images/Products/bolt-and-nut/high-strength-hex-bolt-nut-set/hex-bolt-nut-1.jpg"
+      "images/Products/other-components/bolt-and-nut/140-m302m2015-130l-black-vehicle-rear-wheel-bolts/H06199acfbcb24f959473170631f6ad24C.jpg_720x720q50.avif"
     ],
     certifications: ["ISO 9001"],
     availability: "In Stock",
@@ -734,7 +1410,7 @@ export const boltAndNutProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "images/Products/bolt-and-nut/excavator-track-bolt-nut-kit/track-bolt-nut-1.jpg"
+      "images/Products/other-components/bolt-and-nut/customized-yellow-40cr-m181565l-vehicle-bolt-nut/H21fd23cc392c47e884b1780ad3cbbd471.png_720x720q50.avif"
     ],
     certifications: ["ISO 9001"],
     availability: "In Stock",
@@ -767,7 +1443,7 @@ export const boltAndNutProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "images/Products/bolt-and-nut/plow-bolt-nut-for-cutting-edge/plow-bolt-nut-1.jpg"
+      "images/Products/other-components/bolt-and-nut/m181554l-vehicle-front-wheel-bolt-nut-40cr/H8c5d29936f5d4f12a0d4e5ee3608d199C.jpg_720x720q50.avif"
     ],
     certifications: ["ISO 9001"],
     availability: "In Stock",
@@ -800,7 +1476,7 @@ export const boltAndNutProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "images/Products/bolt-and-nut/flange-bolt-nut-for-hydraulic-systems/flange-bolt-nut-1.jpg"
+      "images/Products/other-components/bolt-and-nut/yellow-40cr-m2515m2215115l-rear-wheel-bolt-nut/H63db5a2b8c634811811ce9b9a91e80daG.jpg_720x720q50.avif"
     ],
     certifications: ["ISO 9001"],
     availability: "In Stock",
@@ -1205,7 +1881,7 @@ export const swingBearingsProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "images/Products/excavator-attachments/Swing-bearings/genuine-metal-gear-swing-bearing-zx30-zx200.avif"
+      "images/Products/excavator-attachments/Swing-bearings/genuine-metal-gear-swing-bearing-zx30-zx200/H695bdd76ed734cf0acf69ed0470a52b57.jpg_720x720q50.avif"
     ],
     certifications: ["ISO 9001"],
     availability: "In Stock",
@@ -1307,7 +1983,7 @@ export const hydraulicPumpProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "Products/excavator-attachments/Hydraulic-pump/hd1430-travel-motor-619-89300001/H0c3596317d0943669c1501d8ee8b6172u.jpg_720x720q50.avif"
+      "images/Products/excavator-attachments/Hydraulic-pump/hd1430-travel-motor-619-89300001/H0c3596317d0943669c1501d8ee8b6172u.jpg_720x720q50.avif"
     ],
     certifications: ["ISO 9001"],
     availability: "In Stock",
@@ -1340,7 +2016,7 @@ export const hydraulicPumpProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "images/Products/excavator-attachments/Hydraulic-pump.avif"
+      "images/Products/excavator-attachments/Hydraulic-pump/new-pc60-5-travel-motor/H1a40e71617124672b75d69504812f7f3m.jpg_720.avif"
     ],
     certifications: ["ISO 9001"],
     availability: "In Stock",
@@ -1376,7 +2052,7 @@ export const hydraulicCrusherProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "images/Products/excavator-attachments/Hydraulic-crusher/alloy-steel-skid-steer-hydraulicH1c0dfadd72a5490ab50ae4b720302782K.jpg_720x720q50.avif",
+      "images/Products/excavator-attachments/Hydraulic-crusher/alloy-steel-skid-steer-hydraulic/H1c0dfadd72a5490ab50ae4b720302782K.jpg_720x720q50.avif",
       "images/Products/excavator-attachments/Hydraulic-crusher/alloy-steel-skid-steer-hydraulic/H6aac302980d94fc4b9860a494e53c935N.jpg_720x720q50.avif",
       "images/Products/excavator-attachments/Hydraulic-crusher/alloy-steel-skid-steer-hydraulic/H59d0d5374d254640ac4c47103c2b8926T.jpg_72.avif",
       "images/Products/excavator-attachments/Hydraulic-crusher/alloy-steel-skid-steer-hydraulic/Hef86a60812e7464ab04c901a75399da8K.jpg_720x720q50.avif"
@@ -1631,10 +2307,9 @@ export const extendedArmProducts: Product[] = [
       countryOfOrigin: "China"
     },
     images: [
-      "images/Products/excavator-attachments/Extended-arm/oem-high-quality-new-zx470-excavatorH8eada3df36484aef8331996c9a62538fX.jpg_720x720q50.avif",
+      "images/Products/excavator-attachments/Extended-arm/oem-high-quality-new-zx470-excavator/H7792171d342847cf8707b027e71532b1q.png_720x.avif",
       "images/Products/excavator-attachments/Extended-arm/oem-high-quality-new-zx470-excavator/H9b7ca52c41464c91afc3de484ddd7406S.jpg_720x720q50.avif",
       "images/Products/excavator-attachments/Extended-arm/oem-high-quality-new-zx470-excavator/H886f721124b443c297ca6d2354c0b1adw.jpg_720x720q50.avif",
-      "images/Products/excavator-attachments/Extended-arm/oem-high-quality-new-zx470-excavator/H7792171d342847cf8707b027e71532b1q.png_720x.avif"
     ],
     certifications: ["ISO 9001"],
     availability: "In Stock",
@@ -1835,4 +2510,140 @@ export const extendedArmCylinderProducts: Product[] = [
     tags: ["cylinder", "hydraulic", "pc200", "excavator"]
   }
 ];
- 
+// Track-shoe products
+export const trackShoeProducts: Product[] = [
+  {
+    id: "TS-001",
+    title: "d4h-d5c-d5m-d5n-quality-bulldozer-track-pads",
+    slug: "d4h-d5c-d5m-d5n-quality-bulldozer-track-pads",
+    category: "track-shoe",
+    description: "Quality bulldozer track pads for D4H, D5C, D5M, D5N, designed for durability and traction.",
+    features: [
+      "Fits D4H, D5C, D5M, D5N",
+      "High durability",
+      "Excellent traction",
+      "OEM quality"
+    ],
+    applications: [
+      "Bulldozers",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement pads"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+       "images/Products/undercarriage-parts/track-shoe/d4h-d5c-d5m-d5n-quality-bulldozer-track-pads/Hca58f908dc4c46a992a3e63bdc6883f5H.jpg_720x720q50.avif",
+      "images/Products/undercarriage-parts/track-shoe/d4h-d5c-d5m-d5n-quality-bulldozer-track-pads/H65a0c686509847d8b1ca160203c4968de.jpg_720x720q50.avif",
+     
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track shoe", "bulldozer", "d4h", "d5c", "d5m", "d5n"]
+  },
+  {
+    id: "TS-002",
+    title: "d6c-d8r-d6d-dozer-steel-track-shoes-new",
+    slug: "d6c-d8r-d6d-dozer-steel-track-shoes-new",
+    category: "track-shoe",
+    description: "Steel track shoes for D6C, D8R, D6D dozers, new and built for long service life.",
+    features: [
+      "Fits D6C, D8R, D6D",
+      "Steel construction",
+      "Long service life",
+      "Easy installation"
+    ],
+    applications: [
+      "Dozers",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement shoes"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-shoe/d6c-d8r-d6d-dozer-steel-track-shoes-new/H4b3b7c1a859a4a938070d3a63300670fB.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track shoe", "dozer", "d6c", "d8r", "d6d", "steel"]
+  },
+  {
+    id: "TS-003",
+    title: "new-condition-pc200-5-pc600-7-pc210",
+    slug: "new-condition-pc200-5-pc600-7-pc210",
+    category: "track-shoe",
+    description: "Track shoes for PC200-5, PC600-7, PC210 in new condition, engineered for durability and fit.",
+    features: [
+      "Fits PC200-5, PC600-7, PC210",
+      "New condition",
+      "Durable steel",
+      "Precision fit"
+    ],
+    applications: [
+      "Excavators",
+      "Undercarriage systems",
+      "Construction equipment",
+      "Replacement shoes"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-shoe/new-condition-pc200-5-pc600-7-pc210/Hd9d6935a8147434bb9a2ef4f5df5fc988.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track shoe", "pc200-5", "pc600-7", "pc210", "new condition"]
+  },
+  {
+    id: "TS-004",
+    title: "new-get-track-shoe-d8hd6hd7gd6r-bulldozer-steel-construction-excavator",
+    slug: "new-get-track-shoe-d8hd6hd7gd6r-bulldozer-steel-construction-excavator",
+    category: "track-shoe",
+    description: "New GET track shoe for D8H, D6H, D7G, D6R bulldozers, steel construction for excavators.",
+    features: [
+      "Fits D8H, D6H, D7G, D6R",
+      "Steel construction",
+      "GET compatible",
+      "Durable design"
+    ],
+    applications: [
+      "Bulldozers",
+      "Excavators",
+      "Undercarriage systems",
+      "Replacement shoes"
+    ],
+    specifications: {
+      material: "Steel",
+      weight: "Custom",
+      dimensions: "Custom",
+      temperatureRange: "-20°C to +80°C",
+      countryOfOrigin: "China"
+    },
+    images: [
+      "images/Products/undercarriage-parts/track-shoe/new-get-track-shoe-d8hd6hd7gd6r-bulldozer-steel-construction-excavator/H87d0ac15c91340c688754e3f96a660fdY.jpg_720x720q50.avif"
+    ],
+    certifications: ["ISO 9001"],
+    availability: "In Stock",
+    brand: "OEM",
+    tags: ["track shoe", "get", "d8h", "d6h", "d7g", "d6r", "bulldozer", "steel"]
+  }
+];

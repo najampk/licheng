@@ -18,7 +18,12 @@ import {
   bucketPinProducts,
   hLinkSideLinkProducts,
   rubberPadProducts,
-  rubberTrackProducts
+  idlerProducts,
+  rubberTrackProducts,
+  topRollerProducts,
+  trackGuardProducts,
+  trackRollerProducts,
+  sprocketProducts
 } from '@/data/products'
 
 export default function Product() {
@@ -38,7 +43,12 @@ export default function Product() {
     ...bucketPinProducts,
     ...hLinkSideLinkProducts,
     ...rubberPadProducts,
-    ...rubberTrackProducts
+    ...rubberTrackProducts,
+    ...topRollerProducts,
+    ...trackGuardProducts,
+    ...trackRollerProducts,
+    ...idlerProducts,
+    ...sprocketProducts
   ]
   // Find product by slug
   const product = allProducts.find((p) => p.slug === slug) || null
@@ -154,7 +164,7 @@ export default function Product() {
             </div>
           </div>
 
-          <div className="mt-12 grid lg:grid-cols-3 gap-8">
+          <div className="mt-12 pb-12 grid lg:grid-cols-3 gap-8">
             <Card>
               <CardHeader>
                 <CardTitle>Specifications</CardTitle>
