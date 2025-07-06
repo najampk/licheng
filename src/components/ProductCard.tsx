@@ -58,7 +58,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </>
         )}
       </div>
-      <div className="space-x-1  py-5 p-5 flex justify-center mt-10">
+      <div className="p-5 pb-5">
+      <div className="space-x-1 mt-3 flex justify-center">
         {[...Array(5)].map((_, i) => (
           <svg
             key={i}
@@ -70,10 +71,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </svg>
         ))}
       </div>
-      <h1 className="text-3xl my-5">{product.title}</h1>
+      <h1 className="text-xl my-5">{product.title}</h1>
       {/* <p className="mb-5">{product.description}</p> */}
       <h2 className="font-semibold mb-5">{product.availability}</h2>
       <button className="p-2 px-6 bg-yellow-500 text-white rounded-md hover:bg-yellow-600">Add To Cart</button>
+      </div>
     </section>
   );
 };
