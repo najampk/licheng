@@ -1,5 +1,6 @@
 // pages/Product.tsx
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Badge } from '@/components/ui/badge';
@@ -101,7 +102,14 @@ export default function Product() {
                 <p className="font-medium text-gray-700 uppercase tracking-wide text-xs mb-1">Get more info</p>
                 <p>About availability,<br />price and delivery</p>
               </div>
-              <Button className="rounded-full bg-yellow-500 text-white font-semibold hover:bg-black hover:text-yellow-400 px-6 py-2 text-sm">Express interest</Button>
+
+              <Button
+                asChild
+                className="rounded-full bg-yellow-500 text-white font-semibold hover:bg-black hover:text-yellow-400 px-6 py-2 text-sm"
+              >
+                <Link to="/contact">Express interest</Link>
+              </Button>
+
             </div>
             <div className="grid grid-cols-3 gap-4 text-center text-sm">
               <div><Shield className="mx-auto mb-1 text-yellow-500" /> Quality Assured</div>

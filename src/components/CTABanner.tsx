@@ -22,7 +22,7 @@ const CTABanner = () => {
           </Link>
           
           <Link to="/contact">
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-orange-500 px-8 py-3 rounded-full">
+            <Button size="lg" variant="outline" className="border-white text-orange-500 hover:bg-white hover:text-orange-600 px-8 py-3 rounded-full">
               <Phone className="mr-2 h-5 w-5" />
               Contact Us
             </Button>
