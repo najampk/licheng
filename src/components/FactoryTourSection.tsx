@@ -21,13 +21,13 @@ const FactoryTourSection: React.FC = () => {
       type: 'video',
       title: 'Manufacturing Process',
       description: 'See our precision manufacturing in action',
-      src: '/images/gallery/hero-video-licheng.mp4',
+      src: '/videos/production-video.mp4',
     },
     {
-      type: 'image',
+      type: 'video',
       title: 'Warehouse Facility',
       description: 'Large-scale storage and logistics center',
-      src: '/images/gallery/gallery-3.png',
+      src: '/videos/factory-overview.mp4',
     },
     {
       type: 'image',

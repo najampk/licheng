@@ -1,14 +1,15 @@
-import React from 'react';
+import React from 'react'; 
 import Header from './Header';
 import HeroSection from './HeroSection';
-import NewAboutSection from './NewAboutSection';
+import WhyChooseUsSection from './WhyChooseUsSection';
+import SupportedIndustriesSection from './SupportedIndustriesSection';
 import CapabilitiesSection from './CapabilitiesSection';
-import ProductCategoriesTabs from './ProductCategoriesTabs';
+import ProductRangeSection from './ProductRangeSection';
+import CategoryGrid from './CategoryGrid'; // ✅ import added
 import EngineeringSection from './EngineeringSection';
 import FactoryTourSection from './FactoryTourSection';
 import FAQSection from './FAQSection';
 import CTASection from './CTASection';
-import CTAButton from './CTAButton';
 import Footer from './Footer';
 
 const AppLayout: React.FC = () => {
@@ -18,26 +19,30 @@ const AppLayout: React.FC = () => {
       <section id="hero">
         <HeroSection />
       </section>
-      <section id="about">
-        <NewAboutSection />
-        <CTAButton text="Learn More About Us" />
+      <section id="why-choose-us">
+        <WhyChooseUsSection />
+      </section>
+      <section id="supported-industries">
+        <SupportedIndustriesSection />
       </section>
       <CapabilitiesSection />
-      <CTAButton text="Explore Our Capabilities" />
       <section id="products">
-        <ProductCategoriesTabs />
-        <CTAButton text="View All Products" onClick={() => window.location.href = '/products'} />
+        <ProductRangeSection />
       </section>
+
+      {/* ✅ New Category Grid Section */}
+      <section id="product-categories">
+        <CategoryGrid />
+      </section>
+
       <EngineeringSection />
-      <CTAButton text="Explore Engineering Solutions" />
       <FactoryTourSection />
-      <CTAButton text="Schedule Factory Visit" />
       <FAQSection />
-      <CTAButton text="Contact Support" />
       <CTASection />
       <Footer />
     </main>
   );
 };
 
+export { AppLayout };
 export default AppLayout;

@@ -10,18 +10,17 @@ export const Footer: React.FC = () => {
   ];
 
   const services = [
-    'Custom Manufacturing', 'Technical Support', 'Installation Services', 'After-sales Support',
-    'Import/Export Agency', 'International Logistics', 'Customs Clearance', 'Warehousing'
+    { name: 'Custom Manufacturing', path: '/custom-manufacturing' },
+    { name: 'Technical Support', path: '/technical-support' },
+    { name: 'Installation Services', path: '/installation-services' },
+    { name: 'After-sales Support', path: '/after-sales-support' },
+    { name: 'Import/Export Agency', path: '/import-export-agency' },
+    { name: 'International Logistics', path: '/international-logistics' }
   ];
 
   const industries = [
     'Construction Machinery', 'Heavy Equipment', 'Industrial Manufacturing', 'Mining Equipment',
     'Petrochemical', 'Municipal Engineering', 'Energy Development', 'Intelligent Manufacturing'
-  ];
-
-  const keywords = [
-    'Construction Machinery Parts', 'Industrial Equipment Supplier', 'Heavy Machinery Components',
-    'Global Supply Chain', 'OEM Quality Parts', 'Precision Manufacturing', 'Quality Certified'
   ];
 
   return (
@@ -33,11 +32,11 @@ export const Footer: React.FC = () => {
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-lg shadow-md"></div>
               <span className="text-xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                Rongwang Trading
+                Licheng Rongwang Trading
               </span>
             </div>
             <p className="text-white/70 mb-6 leading-relaxed">
-              Quanzhou Licheng Rongwang Trading Co., Ltd. - Your trusted partner in construction machinery parts and industrial equipment supply.
+              Licheng Rongwang Trading Co., Ltd. - Your trusted partner in industrial equipment supply.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white/60 hover:text-yellow-400 transition-colors">
@@ -55,29 +54,28 @@ export const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Products & Parts */}
+          {/* Quick Links */}
           <div>
-            <h3 className="text-white font-semibold mb-6 text-yellow-400">Products & Parts</h3>
+            <h3 className="text-white font-semibold mb-6 text-yellow-400">Quick Links</h3>
             <ul className="space-y-2">
-              {productCategories.map((item, index) => (
-                <li key={index}>
-                  <span className="text-white/70 hover:text-yellow-400 transition-colors text-sm cursor-pointer">
-                    {item}
-                  </span>
-                </li>
-              ))}
+              <li><Link to="/about" className="text-white/70 hover:text-yellow-400 transition-colors text-sm">About Us</Link></li>
+              <li><Link to="/contact" className="text-white/70 hover:text-yellow-400 transition-colors text-sm">Contact Us</Link></li>
+              <li><Link to="/quote" className="text-white/70 hover:text-yellow-400 transition-colors text-sm">Get a Quote</Link></li>
+              <li><Link to="/consultation" className="text-white/70 hover:text-yellow-400 transition-colors text-sm">Consultation</Link></li>
+              <li><Link to="/products" className="text-white/70 hover:text-yellow-400 transition-colors text-sm">Products</Link></li>
+              <li><Link to="/excavator-parts-map" className="text-white/70 hover:text-yellow-400 transition-colors text-sm">Excavator Parts Map</Link></li>
             </ul>
           </div>
 
-          {/* Services & Solutions */}
+          {/* Services */}
           <div>
-            <h3 className="text-white font-semibold mb-6 text-yellow-400">Services & Solutions</h3>
+            <h3 className="text-white font-semibold mb-6 text-yellow-400">Services</h3>
             <ul className="space-y-2">
-              {services.map((item, index) => (
+              {services.map((service, index) => (
                 <li key={index}>
-                  <span className="text-white/70 hover:text-yellow-400 transition-colors text-sm cursor-pointer">
-                    {item}
-                  </span>
+                  <Link to={service.path} className="text-white/70 hover:text-yellow-400 transition-colors text-sm">
+                    {service.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -111,24 +109,9 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Industries Served */}
-        <div className="mt-12 pt-8 border-t border-white/10">
-          <h4 className="text-white font-semibold mb-4 text-yellow-400">Industries We Serve</h4>
-          <div className="flex flex-wrap gap-2">
-            {industries.map((industry, index) => (
-              <span key={index} className="px-3 py-1 bg-yellow-400/10 text-yellow-400 text-xs rounded-full border border-yellow-400/20">
-                {industry}
-              </span>
-            ))}
-          </div>
-        </div>
-
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-white/60 text-sm">
-            © 2025 Quanzhou Licheng Rongwang Trading Co., Ltd. All rights reserved. | Established September 12, 2024
-          </p>
-          <p className="text-white/50 text-xs mt-2">
-            "Professionalism, Integrity and Win-Win" - Core Values | Customer First, Innovation-Driven
+            © 2025 Licheng Rongwang Trading Co., Ltd. All rights reserved.
           </p>
         </div>
       </div>

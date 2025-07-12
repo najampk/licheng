@@ -46,8 +46,8 @@ const FactoryEquipmentTab: React.FC = () => {
             <Card key={item.id} className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 hover:scale-105 bg-gradient-to-br from-gray-50 to-gray-100">
               <CardContent className="p-6 text-center">
                 <div className="mb-4">
-                  <div className="w-20 h-20 bg-gradient-to-br from-gray-700 to-gray-900 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <IconComponent className="w-10 h-10 text-white" />
+                  <div className="w-12 h-12 bg-gradient-to-br from-gray-700 to-gray-900 rounded-lg flex items-center justify-center mx-auto">
+                    <IconComponent className="w-6 h-6 text-white" />
                   </div>
                 </div>
                 <div>

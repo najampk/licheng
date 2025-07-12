@@ -8,68 +8,46 @@ import { sampleProduct } from '@/data/products';
 
 const categories = [
   {
-    id: 'excavator-attachments',
-    name: 'Excavator Attachments',
+    id: 'heavy-machinery',
+    name: 'Heavy Machinery Parts',
     icon: Wrench,
-    description: 'Attachments and components for excavators to enhance performance.',
-    products: [
-      { title: 'Extended Arm', ...sampleProduct },
-      { title: 'Swing Stand', ...sampleProduct },
-      { title: 'Hydraulic Crusher', ...sampleProduct },
-      { title: 'Hydraulic Pump', ...sampleProduct },
-      { title: 'Cylinder', ...sampleProduct },
-    ],
-    color: 'from-yellow-600 to-yellow-700'
-  },
-  {
-    id: 'ground-engaging-tools',
-    name: 'Ground Engaging Tools (GET)',
-    icon: Zap,
-    description: 'Durable tools for cutting, digging, and pushing heavy material.',
-    products: [
-      { title: 'Cutting Edge & End Bit', ...sampleProduct },
-      { title: 'Bulldozer Tooth', ...sampleProduct },
-    ],
-    color: 'from-red-600 to-red-700'
-  },
-  {
-    id: 'undercarriage-parts',
-    name: 'Undercarriage Parts',
-    icon: Cog,
-    description: 'Reliable undercarriage parts for construction machinery.',
-    products: [
-      { title: 'Track Roller', ...sampleProduct },
-      { title: 'Carrier Roller', ...sampleProduct },
-      { title: 'Sprocket', ...sampleProduct },
-      { title: 'Idler', ...sampleProduct },
-      { title: 'Track Link', ...sampleProduct },
-      { title: 'Track Shoe', ...sampleProduct },
-    ],
+    description: 'Professional grade components for heavy construction and mining equipment',
+    products: [sampleProduct],
     color: 'from-blue-600 to-blue-700'
   },
   {
-    id: 'rubber-components',
-    name: 'Rubber Components',
-    icon: Droplets,
-    description: 'Rubber tracks and pads for shock absorption and traction.',
-    products: [
-      { title: 'Rubber Track', ...sampleProduct },
-      { title: 'Rubber Pad', ...sampleProduct },
-    ],
+    id: 'packaging',
+    name: 'Heavy Packaging Solutions',
+    icon: Package,
+    description: 'Industrial packaging systems for heavy-duty applications',
+    products: [],
     color: 'from-green-600 to-green-700'
   },
   {
-    id: 'other-components',
-    name: 'Other Components',
-    icon: Star,
-    description: 'Custom manufactured components and special orders.',
-    products: [
-      { title: 'Custom Orders', ...sampleProduct },
-    ],
+    id: 'plumbing',
+    name: 'Plumbing & Fittings',
+    icon: Droplets,
+    description: 'High-quality plumbing components and industrial fittings',
+    products: [],
+    color: 'from-cyan-600 to-cyan-700'
+  },
+  {
+    id: 'electromechanical',
+    name: 'Electromechanical Products',
+    icon: Zap,
+    description: 'Advanced electromechanical systems and components',
+    products: [],
     color: 'from-purple-600 to-purple-700'
+  },
+  {
+    id: 'processing',
+    name: 'Processing Machinery',
+    icon: Cog,
+    description: 'Industrial processing equipment and machinery components',
+    products: [],
+    color: 'from-orange-600 to-orange-700'
   }
 ];
-
 
 const ProductCategoriesTabs = () => {
   const [activeTab, setActiveTab] = useState('heavy-machinery');
@@ -88,7 +66,7 @@ const ProductCategoriesTabs = () => {
 
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
           <div className="flex justify-center mb-12">
-            <TabsList className="relative flex flex-nowrap overflow-x-auto px-1.5 py-1.5 list-none rounded-md bg-slate-100 w-full mx-auto border-0 shadow-none scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent md:flex-wrap md:overflow-x-visible">
+            <TabsList className="grid grid-cols-5 gap-2 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-xl p-2 shadow-lg">
               {categories.map((category) => {
                 const Icon = category.icon;
                 const isActive = activeTab === category.id;
@@ -96,15 +74,10 @@ const ProductCategoriesTabs = () => {
                   <TabsTrigger
                     key={category.id}
                     value={category.id}
-                    className={`z-30 flex items-center justify-center flex-none md:flex-auto px-4 py-3 mx-1 my-1 text-base mb-0 transition-all duration-150 ease-in-out border-0 rounded-lg cursor-pointer font-semibold
-                      ${isActive
-                        ? 'bg-gradient-to-r from-yellow-400 to-yellow-500 text-white shadow font-bold scale-105'
-                        : 'text-slate-700 bg-inherit hover:bg-gradient-to-r hover:from-yellow-400 hover:to-yellow-500 hover:text-white'}
-                    `}
-                    style={{ minWidth: '140px' }}
+                    className={`flex flex-col items-center gap-2 px-6 py-4 rounded-lg text-sm font-medium transition-all duration-300 min-w-[120px] ${isActive ? `bg-gradient-to-r ${category.color} text-white shadow-lg transform scale-105` : 'bg-white text-gray-700 hover:bg-yellow-50'}`}
                   >
-                    <Icon className={`w-5 h-5 mr-2 ${isActive ? 'text-white' : 'text-yellow-500 group-hover:text-white'}`} />
-                    <span className={`ml-1 ${isActive ? 'text-white' : ''}`}>{category.name}</span>
+                    <Icon className={`w-6 h-6 ${isActive ? 'text-white' : 'text-yellow-600'}`} />
+                    <span className="text-xs text-center leading-tight">{category.name}</span>
                   </TabsTrigger>
                 );
               })}
@@ -112,7 +85,15 @@ const ProductCategoriesTabs = () => {
           </div>
 
           {categories.map((category) => (
-            <TabsContent key={category.id} value={category.id} className="mt-8 pt-10">
+            <TabsContent key={category.id} value={category.id} className="mt-8">
+              <div className="mb-8 text-center">
+                <div className={`inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r ${category.color} text-white shadow-lg mb-4`}>
+                  <category.icon className="w-6 h-6" />
+                  <h3 className="text-2xl font-bold">{category.name}</h3>
+                </div>
+                <p className="text-lg text-gray-600 max-w-2xl mx-auto">{category.description}</p>
+              </div>
+
               {category.products.length > 0 ? (
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                   {category.products.map((product) => (

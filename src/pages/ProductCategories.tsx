@@ -1,318 +1,107 @@
-import React, { useState } from "react";
+import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import {
-  ArrowRight,
-  Settings,
-  Construction,
-  Layers,
-  Wrench,
-} from "lucide-react";
-import { ProductCategorySidebar } from "@/components/ProductCategorySidebar";
-import { ProductCategoryContent } from "@/components/ProductCategoryContent";
-import { ProductCard } from "@/components/ProductCard";
-import {
-  hydraulicPumpProducts,
-  hydraulicCrusherProducts,
-  extendedArmProducts,
-  extendedArmCylinderProducts,
-  swingBearingsProducts,
-  bucketToothProducts,
-  cuttingEdgeEndBitProducts,
-  boltAndNutProducts,
-  bucketBushingProducts,
-  bucketPinProducts,
-  hLinkSideLinkProducts,
-  rubberPadProducts,
-  rubberTrackProducts,
-  topRollerProducts,
-  trackGuardProducts,
-  trackRollerProducts,
-  sprocketProducts,
-  idlerProducts,
-  trackShoeProducts
-} from "@/data/products";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+  Card, CardContent, CardHeader, CardTitle
+} from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import allProducts from '@/data/products.json';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import { Link } from 'react-router-dom';
 
-const productCategories = [
-  {
-    id: "excavator-attachments",
-    name: "Excavator Attachments",
-    description:
-      "High-quality excavator attachments for enhanced productivity and performance.",
-    subcategories: [
-      {
-        id: "extended-arm",
-        name: "Extended Arm",
-        description: "Long reach arms for extended excavation capabilities.",
-      },
-      {
-        id: "swing-bearings",
-        name: "Swing Bearings",
-        description: "Durable swing stands for stable excavator operation.",
-      },
-      {
-        id: "hydraulic-crusher",
-        name: "Hydraulic Crusher",
-        description: "Powerful hydraulic crushers for demolition work.",
-      },
-      {
-        id: "hydraulic-pump",
-        name: "Hydraulic Pump",
-        description: "Reliable hydraulic pumps for consistent performance.",
-      },
-      {
-        id: "cylinder",
-        name: "Cylinder",
-        description: "Heavy-duty cylinders for various excavator functions.",
-      },
-    ],
-  },
-  {
-    id: "ground-engaging-tools",
-    name: "Ground Engaging Tools (GET)",
-    description:
-      "Durable ground engaging tools designed for maximum efficiency and longevity.",
-    subcategories: [
-      {
-        id: "cutting-edge-end-bit",
-        name: "Cutting Edge & End Bit",
-        description: "Sharp cutting edges and end bits for precise excavation.",
-      },
-      {
-        id: "bulldozer-tooth",
-        name: "Bulldozer Tooth",
-        description: "Heavy-duty teeth for bulldozer applications.",
-        items: ["Bucket Tooth", "Ripper Tooth"],
-      },
-    ],
-  },
-  {
-    id: "undercarriage-parts",
-    name: "Undercarriage Parts",
-    description:
-      "Complete range of undercarriage components for optimal machine mobility.",
-    subcategories: [
-      {
-        id: "idler",
-        name: "Idler",
-        description: "Reliable idlers for track tension control.",
-      },
-      {
-        id: "sprocket",
-        name: "Sprocket",
-        description: "Precision-engineered sprockets for track drive.",
-      },
-      {
-        id: "track-roller",
-        name: "Track Roller",
-        description: "Durable track rollers for undercarriage support.",
-      },
-      {
-        id: "track-shoe",
-        name: "Track Shoe",
-        description: "Durable track shoes for various ground conditions.",
-      },
-      {
-        id: "top-roller",
-        name: "Top Roller",
-        description: "Durable top rollers for track support and stability.",
-      },
-      {
-        id: "track-guard",
-        name: "Track Guard",
-        description: "Steel track guards for undercarriage protection.",
-      },
-    ],
-  },
-  {
-    id: "rubber-components",
-    name: "Rubber Components",
-    description:
-      "High-grade rubber components for reduced noise and improved traction.",
-    subcategories: [
-      {
-        id: "rubber-track",
-        name: "Rubber Track",
-        description: "Flexible rubber tracks for compact equipment.",
-      },
-      {
-        id: "rubber-pad",
-        name: "Rubber Pad",
-        description: "Protective rubber pads for surface preservation.",
-      },
-    ],
-  },
-  {
-    id: "other-components",
-    name: "Other Components",
-    description:
-      "Custom solutions and specialized components for unique requirements.",
-    subcategories: [
-      {
-        id: "bucket-bushing",
-        name: "Bucket Bushing",
-        description: "Durable bushings for excavator buckets and linkages.",
-      },
-      {
-        id: "bucket-pin",
-        name: "Bucket Pin",
-        description: "High-strength pins for bucket and linkage connections.",
-      },
-      {
-        id: "bolt-and-nut",
-        name: "Bolt & Nut",
-        description: "Heavy-duty bolts and nuts for machinery assembly.",
-      },
-      {
-        id: "h-link-side-link",
-        name: "H-Link & Side Link",
-        description: "Precision H-links and side links for excavator buckets.",
-      },
-     
-    ],
-  },
-];
+export default function ProductsCategories() {
+  const [categoryFilter, setCategoryFilter] = useState('');
+  const [brandFilter, setBrandFilter] = useState('');
 
-export const ProductCategories: React.FC = () => {
-  const [activeCategory, setActiveCategory] = useState("excavator-attachments");
+  const categories = Array.from(new Set(allProducts.map(p => p.category)));
+  const brands = Array.from(new Set(allProducts.map(p => p.brand)));
+
+  const filteredProducts = allProducts.filter(p => {
+    return (
+      (categoryFilter === '' || p.category === categoryFilter) &&
+      (brandFilter === '' || p.brand === brandFilter)
+    );
+  });
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black">
+    <>
+      <Helmet>
+        <title>All Products | Licheng Trading</title>
+        <meta name="description" content="Explore our full range of high-quality industrial products including machinery parts, packaging solutions and more." />
+      </Helmet>
+
       <Header />
 
-      {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white py-24 px-6 md:px-20 overflow-hidden">
-        {/* Background Overlay */}
-        <div className="absolute inset-0 bg-[url('https://cdn.brooksindustrialmetals.com/wp-content/uploads/2023/06/background-image.png')] opacity-5 bg-cover bg-center pointer-events-none"></div>
+      <section className="bg-white text-gray-900 px-4 md:px-8 pt-10 pb-4 mt-10">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="text-3xl font-bold mb-4">All Products</h1>
 
-        <div className="relative z-10 max-w-5xl mx-auto text-center">
-          {/* Icon Strip */}
-          <div className="flex justify-center gap-6 mb-6 text-yellow-400">
-            <Settings className="w-6 h-6" />
-            <Construction className="w-6 h-6" />
-            <Layers className="w-6 h-6" />
-            <Wrench className="w-6 h-6" />
+          {/* Filters */}
+          <div className="flex flex-wrap gap-4 mb-8">
+            <select
+              className="border rounded-md px-4 py-2 text-sm"
+              value={categoryFilter}
+              onChange={(e) => setCategoryFilter(e.target.value)}
+            >
+              <option value="">All Categories</option>
+              {categories.map(c => (
+                <option key={c} value={c}>{c}</option>
+              ))}
+            </select>
+
+            <select
+              className="border rounded-md px-4 py-2 text-sm"
+              value={brandFilter}
+              onChange={(e) => setBrandFilter(e.target.value)}
+            >
+              <option value="">All Brands</option>
+              {brands.map(b => (
+                <option key={b} value={b}>{b}</option>
+              ))}
+            </select>
+
+            <Button
+              variant="outline"
+              className="text-sm"
+              onClick={() => {
+                setCategoryFilter('');
+                setBrandFilter('');
+              }}
+            >
+              Clear Filters
+            </Button>
           </div>
 
-          {/* Heading & Text */}
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight mb-4">
-            Heavy Machinery Parts, Built to Perform
-          </h1>
-          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            Explore excavator attachments, undercarriage parts, and custom
-            components — all engineered to push limits and power productivity.
-          </p>
-
-          {/* CTA */}
-          <a
-            href="#categories"
-            className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 px-6 rounded-lg transition duration-300"
-          >
-            <ArrowRight className="w-5 h-5" />
-            Browse Product Categories
-          </a>
-        </div>
-      </div>
-
-      {/* Categories Section */}
-      <div id="categories" className="py-16 flex">
-        <ProductCategorySidebar
-          categories={productCategories}
-          activeCategory={activeCategory}
-          onCategoryClick={setActiveCategory}
-        />
-        <div className="flex-1 px-6">
-          {/* Show product cards for the selected category */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {(() => {
-              let products = [];
-              // Parent category logic
-              if (activeCategory === "excavator-attachments") {
-                products = [
-                  ...extendedArmProducts,
-                  ...swingBearingsProducts,
-                  ...hydraulicCrusherProducts,
-                  ...hydraulicPumpProducts,
-                  ...extendedArmCylinderProducts
-                ];
-              } else if (activeCategory === "ground-engaging-tools") {
-                products = [
-                  ...cuttingEdgeEndBitProducts,
-                  ...bucketToothProducts
-                ];
-              } else if (activeCategory === "undercarriage-parts") {
-                products = [
-                  ...idlerProducts,
-                  ...sprocketProducts,
-                  ...trackRollerProducts,
-                  ...trackShoeProducts,
-                  ...topRollerProducts,
-                  ...trackGuardProducts
-                ];
-              } else if (activeCategory === "rubber-components") {
-                products = [
-                  ...rubberTrackProducts,
-                  ...rubberPadProducts
-                ];
-              } else if (activeCategory === "other-components") {
-                products = [
-                  ...bucketBushingProducts,
-                  ...bucketPinProducts,
-                  ...boltAndNutProducts,
-                  ...hLinkSideLinkProducts
-                ];
-              }
-              // Subcategory logic
-              else if (activeCategory === "hydraulic-pump")
-                products = hydraulicPumpProducts;
-              else if (activeCategory === "hydraulic-crusher")
-                products = hydraulicCrusherProducts;
-              else if (activeCategory === "extended-arm")
-                products = extendedArmProducts;
-              else if (activeCategory === "cylinder")
-                products = extendedArmCylinderProducts;
-              else if (activeCategory === "swing-bearings")
-                products = swingBearingsProducts;
-              else if (activeCategory === "cutting-edge-end-bit")
-                products = cuttingEdgeEndBitProducts;
-              else if (activeCategory === "bulldozer-tooth")
-                products = bucketToothProducts;
-              else if (activeCategory === "bolt-and-nut")
-                products = boltAndNutProducts;
-              else if (activeCategory === "bucket-bushing")
-                products = bucketBushingProducts;
-              else if (activeCategory === "bucket-pin")
-                products = bucketPinProducts;
-              else if (activeCategory === "h-link-side-link")
-                products = hLinkSideLinkProducts;
-              else if (activeCategory === "rubber-pad")
-                products = rubberPadProducts;
-              else if (activeCategory === "rubber-track")
-                products = rubberTrackProducts;
-              else if (activeCategory === "top-roller")
-                products = topRollerProducts;
-              else if (activeCategory === "track-guard")
-                products = trackGuardProducts;
-              else if (activeCategory === "track-roller")
-                products = trackRollerProducts;
-              else if (activeCategory === "idler")
-                products = idlerProducts;
-              else if (activeCategory === "sprocket")
-                products = sprocketProducts;
-              else if (activeCategory === "track-shoe")
-                products = trackShoeProducts;
-              // Add more categories as needed
-              return products.map((product) => (
-                <ProductCard key={product.id} product={product} />
-              ));
-            })()}
+          {/* Products Grid */}
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {filteredProducts.map(product => (
+              <Link to={`/product/${product.slug}`} key={product.slug}>
+                <Card className="hover:shadow-lg transition-shadow duration-200 h-full">
+                  <CardHeader>
+                    <img
+                      src={product.images[0]}
+                      alt={product.title}
+                      className="w-full h-50 object-cover rounded-md"
+                    />
+                  </CardHeader>
+                  <CardContent className="space-y-2">
+                    <Badge className="bg-yellow-500 text-black text-xs">{product.category}</Badge>
+                    <CardTitle className="text-base font-semibold truncate">{product.title}</CardTitle>
+                    <p className="text-sm text-gray-500 truncate">{product.brand}</p>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
           </div>
+
+          {filteredProducts.length === 0 && (
+            <p className="mt-10 text-gray-500 text-center">No products match your selected filters.</p>
+          )}
         </div>
-      </div>
+      </section>
 
       <Footer />
-    </div>
+    </>
   );
-};
-
-export default ProductCategories;
+}

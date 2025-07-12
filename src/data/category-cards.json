@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Extended Arm",
+    "slug": "extended-arm",
+    "categorySlug": "extended-arm",
+    "image": "/images/products/01-extended-arm/p1/01.png",
+    "description": "Boost your reach and performance with our heavy-duty extended arms for excavators."
+  },
+  {
+    "title": "Swing Stand",
+    "slug": "swing-stand",
+    "categorySlug": "swing-stand",
+    "image": "/images/products/02-swing-stand/p1/01.png",
+    "description": "Durable swing stands engineered for stability and smooth rotational performance."
+  },
+  {
+    "title": "Hydraulic Seal Kits",
+    "slug": "hydraulic-seal-kits",
+    "categorySlug": "hydraulic-seal-kits",
+    "image": "/images/products/03-hydraulic-seal kits/p1/01.png",
+    "description": "Reliable hydraulic seal kits to prevent leaks and maintain pressure integrity."
+  },
+  {
+    "title": "Hydraulic Pumps",
+    "slug": "hydraulic-pumps",
+    "categorySlug": "hydraulic-pumps",
+    "image": "/images/products/04-hydraulic-pump/p1/01.jpg",
+    "description": "High-performance hydraulic pumps for consistent fluid power in extreme conditions."
+  },
+  {
+    "title": "Hydraulic Cylinders",
+    "slug": "hydraulic-cylinders",
+    "categorySlug": "hydraulic-cylinders",
+    "image": "/images/products/06-cylinder/p1/01.jpg",
+    "description": "Precision-built hydraulic cylinders for powerful lifting and pushing applications."
+  },
+  {
+    "title": "Hydraulic Crushers",
+    "slug": "hydraulic-crushers",
+    "categorySlug": "hydraulic-crushers",
+    "image": "/images/products/05-hydraulic-crusher/p1/01.jpg",
+    "description": "Powerful crushing tools designed for demolition and heavy-duty applications."
+  },
+  {
+    "title": "Cutting Edges",
+    "slug": "cutting-edges",
+    "categorySlug": "cutting-edges",
+    "image": "/images/products/07-cutting-edge/p1/01.jpg",
+    "description": "Abrasion-resistant cutting edges ideal for construction and earthmoving machinery."
+  },
+  {
+    "title": "Bulldozer Tooth",
+    "slug": "bulldozer-tooth",
+    "categorySlug": "bulldozer-tooth",
+    "image": "/images/products/08-bulldozer-tooth/p1/01.jpg",
+    "description": "Hardened bulldozer teeth built for penetration and long-lasting durability."
+  },
+  {
+    "title": "Undercarriage Parts",
+    "slug": "undercarriage-parts",
+    "categorySlug": "undercarriage-parts",
+    "image": "/images/products/09-undercarriage-parts/p1/01.jpg",
+    "description": "Comprehensive undercarriage components to keep your tracked machines moving."
+  },
+  {
+    "title": "Rubber Track",
+    "slug": "rubber-track",
+    "categorySlug": "rubber-track",
+    "image": "/images/products/10-rubber-track/p1/01.jpg",
+    "description": "High-traction, wear-resistant rubber tracks for compact and full-size machinery."
+  },
+  {
+    "title": "Rubber Pig Pillow",
+    "slug": "rubber-pig-pillow",
+    "categorySlug": "rubber-pig-pillow",
+    "image": "/images/products/11-rubber-pig-pillow/p1/01.jpg",
+    "description": "Shock-absorbing rubber pig pillows for vibration control in tracked equipment."
+  },
+  {
+    "title": "Bucket Accessories",
+    "slug": "bucket-accessories",
+    "categorySlug": "bucket-accessories",
+    "image": "/images/products/12-bucket/p1/01.jpg",
+    "description": "Versatile bucket accessories to enhance digging, grading, and material handling."
+  },
+  {
+    "title": "H Connector",
+    "slug": "h-connector",
+    "categorySlug": "h-connector",
+    "image": "/images/products/13-h-connector/p1/01.jpg",
+    "description": "Heavy-duty H connectors for secure mechanical linkages in demanding environments."
+  },
+  {
+    "title": "Bushing",
+    "slug": "bushing",
+    "categorySlug": "bushing",
+    "image": "/images/products/14-bushing/p1/01.png",
+    "description": "High-precision bushings for reducing friction and extending component life."
+  }
+]
