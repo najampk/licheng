@@ -111,7 +111,7 @@ const ExcavatorPartsMap: React.FC = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       <Header />
-
+    <main className="bg-white text-gray-900 pt-[120px]">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-orange-50 to-yellow-50 py-16 text-center">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -221,9 +221,10 @@ const ExcavatorPartsMap: React.FC = () => {
           </button>
         </div>
       </section>
-
+    </main>  
       <Footer />
     </div>
+    
   );
 };
 
