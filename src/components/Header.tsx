@@ -63,6 +63,13 @@ export const Header: React.FC<HeaderProps> = ({ solidBackground = false }) => {
               </Link>
 
               <Link
+                to="/solutions"
+                className="font-medium text-gray-800 hover:text-yellow-500 transition-colors"
+              >
+                Solutions
+              </Link>
+
+              <Link
                 to="/about"
                 className="font-medium text-gray-800 hover:text-yellow-500 transition-colors"
               >
