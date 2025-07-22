@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yoursite.com/sitemap.xml
+Sitemap: https://lichengrongwang.com/sitemap.xml
 
 # Optimize for AI crawlers
 User-agent: GPTBot
