@@ -130,7 +130,7 @@ const ExcavatorPartsMap: React.FC = () => {
           {categories.map((cat) => (
             <div
               key={cat.slug}
-              onClick={() => navigate(`/categories/${cat.slug}`)}
+              onClick={() => navigate(`/category/${cat.slug}`)}
               className="cursor-pointer p-3 rounded hover:bg-orange-100 transition border"
             >
               <div className="font-medium text-orange-600">{cat.title}</div>
@@ -167,7 +167,7 @@ const ExcavatorPartsMap: React.FC = () => {
                       </p>
                       <button
                         onClick={() => navigate(`/category/${info.slug}`)}
-                        className="text-xs font-medium text-blue-600 underline"
+                        className="text-xs font-medium text-orange-600 underline"
                       >
                         View Products →
                       </button>

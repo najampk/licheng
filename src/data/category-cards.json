@@ -96,5 +96,12 @@
     "categorySlug": "bushing",
     "image": "/images/products/14-bushing/p1/01.png",
     "description": "High-precision bushings for reducing friction and extending component life."
+  },
+  {
+    "title": "Bolts and Nut",
+    "slug": "bolt-and-nut",
+    "categorySlug": "bolts-and-nuts",
+    "image": "/images/products/15-bolt-and-nut/p1/02.jpg",
+    "description": "Premium-grade hex flange bolt with washer included."
   }
 ]

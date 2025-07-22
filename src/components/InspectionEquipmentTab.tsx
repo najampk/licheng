@@ -43,10 +43,10 @@ const InspectionEquipmentTab: React.FC = () => {
         {equipment.map((item) => {
           const IconComponent = item.icon;
           return (
-            <Card key={item.id} className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 hover:scale-105 bg-gradient-to-br from-blue-50 to-blue-100">
+            <Card key={item.id} className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 hover:scale-105 bg-gradient-to-br from-orange-50 to-orange-100">
               <CardContent className="p-6 text-center">
                 <div className="mb-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center mx-auto">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-600 to-orange-800 rounded-lg flex items-center justify-center mx-auto">
                     <IconComponent className="w-6 h-6 text-white" />
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const InspectionEquipmentTab: React.FC = () => {
                   <h4 className="font-bold text-gray-900 mb-3 text-lg">{item.title}</h4>
                   <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
                   <div className="mt-4 pt-4 border-t border-gray-200">
-                    <span className="inline-block px-3 py-1 bg-blue-200 text-blue-700 text-xs font-medium rounded-full">
+                    <span className="inline-block px-3 py-1 bg-orange-200 text-orange-700 text-xs font-medium rounded-full">
                       Quality Assured
                     </span>
                   </div>

@@ -19,6 +19,7 @@ const Contact = () => {
       </Helmet>
       
       <Header />
+      <main className="mt-20">
       
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16 pt-24">
@@ -158,6 +159,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      </main>
       
       <Footer />
     </div>
