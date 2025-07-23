@@ -291,7 +291,7 @@
     "id": "SS-201",
     "title": "JS Series Swing Gear for Excavator – Compatible with Doosan DX225LC/DX300",
     "slug": "js-series-excavator-swing-gear-doosan",
-    "category": "Swing Stand",
+    "category": "Slewing Bearing",
     "sub_category": "",
     "description": "This heavy-duty swing gear is engineered for JS200–JS260 excavators and fully compatible with Doosan DX225LC and DX300 models. Built with high-performance slewing bearings and tested for long-term stability in harsh construction environments.",
     "features": [
@@ -339,7 +339,7 @@
       "JS200-JS260",
       "slewing bearing",
       "bulldozer repair",
-      "swing stand",
+      "Slewing Bearing",
       "rotary bearing"
     ]
   },
@@ -347,7 +347,7 @@
     "id": "SS-202",
     "title": "JS Series Swing Gear for Excavator – Compatible with Komatsu PC200/PC300",
     "slug": "js-series-excavator-swing-gear-komatsu",
-    "category": "Swing Stand",
+    "category": "Slewing Bearing",
     "sub_category": "",
     "description": "This JS Series swing gear is designed for Komatsu PC200 and PC300 excavators, ensuring high performance and reliability. Manufactured with precision, it meets global standards and is ideal for heavy-duty applications.",
     "features": [
@@ -392,14 +392,14 @@
       "Komatsu PC300",
       "JS200-JS260",
       "slewing bearing",
-      "swing stand"
+      "Slewing Bearing"
     ]
   },
   {
     "id": "SS-203",
     "title": "Excavator Swing Bearing – DX140L / DX340 / DX420 / S330LC-3",
     "slug": "excavator-swing-bearing-dx140l-dx340-dx420-s330lc3",
-    "category": "Swing Stand",
+    "category": "Slewing Bearing",
     "sub_category": "",
     "description": "Durable excavator swing bearing compatible with multiple Doosan and Hyundai models including DX140L, DX340, DX420, and S330LC-3. Designed to support slewing operations with stability and high torque endurance. Built for hydraulic swing systems with OEM precision.",
     "features": [
@@ -456,7 +456,7 @@
     "id": "HSK-301",
     "title": "Engine Water Separator Filter – Model 21939324",
     "slug": "engine-water-separator-filter-21939324",
-    "category": "Hydraulic Seal Kits",
+    "category": "Filters",
     "sub_category": "",
     "description": "OEM-grade water separator filter designed for construction machinery engines. Compatible with model 21939324, this stainless steel filter ensures reliable protection against contaminants and water separation to prolong engine life.",
     "features": [
@@ -511,7 +511,7 @@
     "id": "HSK-302",
     "title": "Oil Filter 400504-00005 for Excavators & Wheeled Equipment",
     "slug": "oil-filter-400504-00005-excavator-wheel",
-    "category": "Hydraulic Seal Kits",
+    "category": "Filters",
     "sub_category": "",
     "description": "High-efficiency oil filter model 400504-00005 designed to protect engine systems in wheeled machinery and excavators. Constructed from corrosion-resistant stainless steel with OEM certification and excellent filtration performance.",
     "features": [
@@ -566,7 +566,7 @@
     "id": "HSK-303",
     "title": "Excavator Oil Filter – E320 2.1 RO39/1R739 OEM Model",
     "slug": "excavator-oil-filter-e320-ro39-1r739",
-    "category": "Hydraulic Seal Kits",
+    "category": "Filters",
     "sub_category": "",
     "description": "OEM-manufactured oil filter compatible with Caterpillar E320 and other excavator models. Designed to protect engine components and ensure optimal performance under harsh conditions. Precision built with stainless steel for durability and filtration efficiency.",
     "features": [
@@ -622,7 +622,7 @@
     "id": "HSK-304",
     "title": "Universal Excavator Filter for Engine Protection",
     "slug": "universal-excavator-filter-engine-protection",
-    "category": "Hydraulic Seal Kits",
+    "category": "Filters",
     "sub_category": "",
     "description": "Heavy-duty stainless steel excavator filter for construction machinery and repair shops. Designed to protect engines from contaminants with ISO-certified quality. Compatible with various models including 21939324.",
     "features": [
@@ -679,7 +679,7 @@
     "id": "HSK-305",
     "title": "Excavator Engine Air Filter – Stainless Steel | Model 21939324",
     "slug": "excavator-engine-air-filter-21939324",
-    "category": "Hydraulic Seal Kits",
+    "category": "Filters",
     "sub_category": "",
     "description": "OEM-quality stainless steel air filter for excavator engine protection. Designed to filter dust and fine particles to improve performance and extend engine life. Ideal for machinery repair shops and compatible with various models including 21939324.",
     "features": [
@@ -1839,9 +1839,9 @@
   },
   {
     "id": "BDT-001",
-    "title": "Heavy-Duty Bulldozer Tooth – Forged Steel",
+    "title": "Heavy-Duty Tooth Lock – Forged Steel",
     "slug": "heavy-duty-bulldozer-tooth-forged-steel",
-    "description": "Durable forged bulldozer tooth for heavy digging, trenching, and ripping applications. Compatible with CAT, Komatsu, and Hitachi models.",
+    "description": "Durable forged Tooth Lock for heavy digging, trenching, and ripping applications. Compatible with CAT, Komatsu, and Hitachi models.",
     "features": [
       "Made from heat-treated forged steel",
       "Long-lasting wear resistance",
@@ -1871,7 +1871,7 @@
     "videos": [
       "/images/products/08-bulldozer-tooth/video1.mp4"
     ],
-    "category": "Bulldozer Tooth",
+    "category": "Tooth Lock",
     "sub_category": "",
     "certifications": [
       "ISO 9001 Certified",
@@ -1881,7 +1881,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "bulldozer tooth",
+      "Tooth Lock",
       "ripper tooth",
       "excavator blade",
       "loader tip",
@@ -1922,7 +1922,7 @@
     "videos": [
       "/images/products/08-bulldozer-tooth/video2.mp4"
     ],
-    "category": "Bulldozer Tooth",
+    "category": "Tooth Lock",
     "sub_category": "",
     "certifications": [
       "ISO 9001 Certified",
@@ -1932,7 +1932,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "bulldozer tooth",
+      "Tooth Lock",
       "ripper tooth",
       "excavator blade",
       "loader tip",
@@ -1973,7 +1973,7 @@
     "videos": [
       "/images/products/08-bulldozer-tooth/video4.mp4"
     ],
-    "category": "Bulldozer Tooth",
+    "category": "Tooth Lock",
     "sub_category": "",
     "certifications": [
       "ISO 9001 Certified",
@@ -1983,7 +1983,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "bulldozer tooth",
+      "Tooth Lock",
       "ripper tooth",
       "excavator blade",
       "loader tip",
@@ -2024,7 +2024,7 @@
     "videos": [
       "/images/products/08-bulldozer-tooth/video5.mp4"
     ],
-    "category": "Bulldozer Tooth",
+    "category": "Tooth Lock",
     "sub_category": "",
     "certifications": [
       "ISO 9001 Certified",
@@ -2034,7 +2034,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "bulldozer tooth",
+      "Tooth Lock",
       "ripper tooth",
       "excavator blade",
       "loader tip",
@@ -2075,7 +2075,7 @@
     "videos": [
       "/images/products/08-bulldozer-tooth/video5.mp4"
     ],
-    "category": "Bulldozer Tooth",
+    "category": "Tooth Lock",
     "sub_category": "",
     "certifications": [
       "ISO 9001 Certified",
@@ -2085,7 +2085,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "bulldozer tooth",
+      "Tooth Lock",
       "ripper tooth",
       "excavator blade",
       "loader tip",
@@ -2688,11 +2688,11 @@
   },
   {
     "id": "RPP-001",
-    "title": "Excavator Rubber Pig Pillow – Compact Type",
+    "title": "Excavator Rubber Track Pad – Compact Type",
     "slug": "excavator-rubber-pig-pillow-compact-type",
-    "category": "Rubber Pig Pillow",
+    "category": "Rubber Track Pad",
     "sub_category": "",
-    "description": "Compact rubber pig pillow designed for damping vibrations and absorbing shocks in tracked heavy machinery.",
+    "description": "Compact Rubber Track Pad designed for damping vibrations and absorbing shocks in tracked heavy machinery.",
     "features": [
       "High-resilience rubber formulation",
       "Vibration and shock absorbing design",
@@ -2730,7 +2730,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "rubber pig pillow",
+      "Rubber Track Pad",
       "undercarriage support",
       "shock absorber",
       "excavator cushion",
@@ -2740,9 +2740,9 @@
   },
   {
     "id": "RPP-002",
-    "title": "Reinforced Rubber Pig Pillow – Long Type",
+    "title": "Reinforced Rubber Track Pad – Long Type",
     "slug": "reinforced-rubber-pig-pillow-long-type",
-    "category": "Rubber Pig Pillow",
+    "category": "Rubber Track Pad",
     "sub_category": "",
     "description": "Elongated pig pillow with steel insert for greater flexibility and load distribution under extreme operating conditions.",
     "features": [
@@ -2782,7 +2782,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "rubber pig pillow",
+      "Rubber Track Pad",
       "undercarriage support",
       "shock absorber",
       "excavator cushion",
@@ -2794,7 +2794,7 @@
     "id": "RPP-003",
     "title": "Rubber Buffer Pillow for Track Vehicles",
     "slug": "rubber-buffer-pillow-for-track-vehicles",
-    "category": "Rubber Pig Pillow",
+    "category": "Rubber Track Pad",
     "sub_category": "",
     "description": "Shock-absorbing rubber pillow component used in undercarriage systems to reduce stress on steel components.",
     "features": [
@@ -2834,7 +2834,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "rubber pig pillow",
+      "Rubber Track Pad",
       "undercarriage support",
       "shock absorber",
       "excavator cushion",
@@ -2846,9 +2846,9 @@
     "id": "RPP-004",
     "title": "Heavy-Duty Pig Pillow – Bolt-Fit Model",
     "slug": "heavy-duty-pig-pillow-bolt-fit-model",
-    "category": "Rubber Pig Pillow",
+    "category": "Rubber Track Pad",
     "sub_category": "",
-    "description": "Bolt-mounted rubber pig pillow offering reliable undercarriage support for excavators and track systems.",
+    "description": "Bolt-mounted Rubber Track Pad offering reliable undercarriage support for excavators and track systems.",
     "features": [
       "High-resilience rubber formulation",
       "Vibration and shock absorbing design",
@@ -2886,7 +2886,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "rubber pig pillow",
+      "Rubber Track Pad",
       "undercarriage support",
       "shock absorber",
       "excavator cushion",
@@ -2896,11 +2896,11 @@
   },
   {
     "id": "RPP-005",
-    "title": "Universal Rubber Pig Pillow – Flat Bottom",
+    "title": "Universal Rubber Track Pad – Flat Bottom",
     "slug": "universal-rubber-pig-pillow-flat-bottom",
-    "category": "Rubber Pig Pillow",
+    "category": "Rubber Track Pad",
     "sub_category": "",
-    "description": "Universal rubber pig pillow with flat base for general construction equipment. Designed for compatibility and shock load resistance.",
+    "description": "Universal Rubber Track Pad with flat base for general construction equipment. Designed for compatibility and shock load resistance.",
     "features": [
       "High-resilience rubber formulation",
       "Vibration and shock absorbing design",
@@ -2938,7 +2938,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "rubber pig pillow",
+      "Rubber Track Pad",
       "undercarriage support",
       "shock absorber",
       "excavator cushion",
@@ -2950,7 +2950,7 @@
     "id": "BUC-001",
     "title": "High Strength Bucket Tooth Pin",
     "slug": "high-strength-bucket-tooth-pin",
-    "category": "Bucket Accessories",
+    "category": "Bucket Pin",
     "sub_category": "",
     "description": "Engineered steel bucket tooth pin for secure attachment and impact resistance during digging operations.",
     "features": [
@@ -3001,7 +3001,7 @@
     "id": "BUC-002",
     "title": "Heavy Duty Bucket Side Cutter Pin",
     "slug": "heavy-duty-bucket-side-cutter-pin",
-    "category": "Bucket Accessories",
+    "category": "Bucket Pin",
     "sub_category": "",
     "description": "Heavy-duty side cutter pin ideal for extreme side-load support in bucket attachments.",
     "features": [
@@ -3051,7 +3051,7 @@
     "id": "BUC-003",
     "title": "Standard Excavator Tooth Lock Pin",
     "slug": "standard-excavator-tooth-lock-pin",
-    "category": "Bucket Accessories",
+    "category": "Bucket Pin",
     "sub_category": "",
     "description": "Standard tooth pin compatible with most excavator buckets, offers long wear life and easy installation.",
     "features": [
@@ -3092,7 +3092,7 @@
     "brand": "Licheng Rong Wang",
     "tags": [
       "excavator lock pin",
-      "bucket tooth connector",
+      "bucket tooth H Link & I Link",
       "standard pin",
       "steel locking accessory"
     ]
@@ -3101,7 +3101,7 @@
     "id": "BUC-004",
     "title": "Excavator Bucket Fixing Pin",
     "slug": "excavator-bucket-fixing-pin",
-    "category": "Bucket Accessories",
+    "category": "Bucket Pin",
     "sub_category": "",
     "description": "Robust bucket fixing pin with high tensile strength for secure arm-to-bucket joint connection.",
     "features": [
@@ -3148,7 +3148,7 @@
     "id": "BUC-005",
     "title": "Reinforced Bucket Center Pin",
     "slug": "reinforced-bucket-center-pin",
-    "category": "Bucket Accessories",
+    "category": "Bucket Pin",
     "sub_category": "",
     "description": "Reinforced center pin used for structural strength in bucket mounting; supports rotational stability.",
     "features": [
@@ -3193,11 +3193,11 @@
   },
   {
     "id": "HC-001",
-    "title": "Heavy-Duty H Connector – Dual Pin Design",
+    "title": "Heavy-Duty H Link & I Link – Dual Pin Design",
     "slug": "heavy-duty-h-connector-dual-pin",
-    "category": "H Connector",
+    "category": "H Link & I Link",
     "sub_category": "",
-    "description": "Heavy-duty dual pin H connector for large-scale excavation equipment. Ensures secure attachment and resistance to dynamic stress.",
+    "description": "Heavy-duty dual pin H Link & I Link for large-scale excavation equipment. Ensures secure attachment and resistance to dynamic stress.",
     "features": [
       "Dual pin configuration for improved stability",
       "Anti-rust powder-coated steel",
@@ -3235,7 +3235,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "h connector",
+      "H Link & I Link",
       "excavator link",
       "track hardware",
       "undercarriage connector",
@@ -3244,9 +3244,9 @@
   },
   {
     "id": "HC-002",
-    "title": "Compact H Connector – Single Pin End",
+    "title": "Compact H Link & I Link – Single Pin End",
     "slug": "compact-h-connector-single-pin",
-    "category": "H Connector",
+    "category": "H Link & I Link",
     "sub_category": "",
     "description": "Compact H-style connector ideal for smaller equipment and confined workspaces. Built for durability and compatibility.",
     "features": [
@@ -3286,7 +3286,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "h connector",
+      "H Link & I Link",
       "excavator link",
       "track hardware",
       "undercarriage connector",
@@ -3297,9 +3297,9 @@
     "id": "HC-003",
     "title": "Reinforced Steel H Link Connector",
     "slug": "reinforced-steel-h-link-connector",
-    "category": "H Connector",
+    "category": "H Link & I Link",
     "sub_category": "",
-    "description": "Reinforced H connector with robust steel construction for high-load scenarios in excavation and mining applications.",
+    "description": "Reinforced H Link & I Link with robust steel construction for high-load scenarios in excavation and mining applications.",
     "features": [
       "Dual pin configuration for improved stability",
       "Anti-rust powder-coated steel",
@@ -3337,7 +3337,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "h connector",
+      "H Link & I Link",
       "excavator link",
       "track hardware",
       "undercarriage connector",
@@ -3348,7 +3348,7 @@
     "id": "HC-004",
     "title": "High-Torque Rated H Style Connector",
     "slug": "high-torque-rated-h-style-connector",
-    "category": "H Connector",
+    "category": "H Link & I Link",
     "sub_category": "",
     "description": "H-style connector designed for high-torque environments. Machined precisely for minimal wear and improved service life.",
     "features": [
@@ -3388,7 +3388,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "h connector",
+      "H Link & I Link",
       "excavator link",
       "track hardware",
       "undercarriage connector",
@@ -3397,9 +3397,9 @@
   },
   {
     "id": "HC-005",
-    "title": "Precision Cast H Connector for Excavators",
+    "title": "Precision Cast H Link & I Link for Excavators",
     "slug": "precision-cast-h-connector-excavators",
-    "category": "H Connector",
+    "category": "H Link & I Link",
     "sub_category": "",
     "description": "Precision-cast excavator H-connector ensures strong structural joints and compatibility with OEM systems.",
     "features": [
@@ -3439,7 +3439,7 @@
     "availability": "In Stock",
     "brand": "Licheng Rong Wang",
     "tags": [
-      "h connector",
+      "H Link & I Link",
       "excavator link",
       "track hardware",
       "undercarriage connector",
@@ -3688,6 +3688,256 @@
     "videos": [
       "/images/products/14-bushing/p5/video-5.mp4"
     ],
+    "certifications": [
+      "ISO 9001 Compliant",
+      "OEM Manufacturing",
+      "Heavy-Duty Grade Certified"
+    ],
+    "availability": "In Stock",
+    "brand": "Licheng Rong Wang",
+    "tags": [
+      "bushing",
+      "excavator bushing",
+      "vibration damping",
+      "shock absorber",
+      "construction machinery parts",
+      "undercarriage"
+    ]
+  },
+   {
+    "id": "BUSH-001",
+    "title": "Excavator Bucket Bushing \u2013 Heavy-Duty Steel / 40Cr",
+    "slug": "excavator-bucket-bushing-heavy-duty-1",
+    "category": "Bushing",
+    "sub_category": "Bucket Bushing",
+    "description": "Durable excavator bucket bushing made from steel or 40Cr alloy, designed for high-load and impact applications in construction machinery.",
+    "features": [
+      "Forged steel or 40Cr composition",
+      "Shock absorbing and vibration resistant",
+      "Precision fit with high durability",
+      "Supports OEM customization"
+    ],
+    "applications": [
+      "Excavator arms",
+      "Track roller systems",
+      "Heavy-duty hinges",
+      "Loader pins"
+    ],
+    "specifications": {
+      "material": "Bronze / Rubber / Polyurethane / Steel-composite",
+      "weight": "0.5 \u2013 3.5 kg",
+      "dimensions": "Standard sizes or customizable",
+      "temperatureRange": "-30\u00b0C to +120\u00b0C",
+      "countryOfOrigin": "Zhejiang, China"
+    },
+    "images": [
+      "/images/products/14-bushing/bucket-bushing/p1/01.jpg",
+      "/images/products/14-bushing/bucket-bushing/p1/02.jpg",
+      "/images/products/14-bushing/bucket-bushing/p1/03.jpg",
+      "/images/products/14-bushing/bucket-bushing/p1/04.jpg"
+    ],
+    "videos": [],
+    "certifications": [
+      "ISO 9001 Compliant",
+      "OEM Manufacturing",
+      "Heavy-Duty Grade Certified"
+    ],
+    "availability": "In Stock",
+    "brand": "Licheng Rong Wang",
+    "tags": [
+      "bushing",
+      "excavator bushing",
+      "vibration damping",
+      "shock absorber",
+      "construction machinery parts",
+      "undercarriage"
+    ]
+  },
+  {
+    "id": "BUSH-002",
+    "title": "Excavator Bucket Bushing \u2013 Heavy-Duty Steel / 40Cr",
+    "slug": "excavator-bucket-bushing-heavy-duty-2",
+    "category": "Bushing",
+    "sub_category": "Bucket Bushing",
+    "description": "Durable excavator bucket bushing made from steel or 40Cr alloy, designed for high-load and impact applications in construction machinery.",
+    "features": [
+      "Forged steel or 40Cr composition",
+      "Shock absorbing and vibration resistant",
+      "Precision fit with high durability",
+      "Supports OEM customization"
+    ],
+    "applications": [
+      "Excavator arms",
+      "Track roller systems",
+      "Heavy-duty hinges",
+      "Loader pins"
+    ],
+    "specifications": {
+      "material": "Bronze / Rubber / Polyurethane / Steel-composite",
+      "weight": "0.5 \u2013 3.5 kg",
+      "dimensions": "Standard sizes or customizable",
+      "temperatureRange": "-30\u00b0C to +120\u00b0C",
+      "countryOfOrigin": "Zhejiang, China"
+    },
+    "images": [
+      "/images/products/14-bushing/bucket-bushing/p2/01.png",
+      "/images/products/14-bushing/bucket-bushing/p2/02.jpg",
+      "/images/products/14-bushing/bucket-bushing/p2/03.jpg",
+      "/images/products/14-bushing/bucket-bushing/p2/04.jpg",
+      "/images/products/14-bushing/bucket-bushing/p2/05.jpg",
+      "/images/products/14-bushing/bucket-bushing/p2/06.jpg"
+    ],
+    "videos": [],
+    "certifications": [
+      "ISO 9001 Compliant",
+      "OEM Manufacturing",
+      "Heavy-Duty Grade Certified"
+    ],
+    "availability": "In Stock",
+    "brand": "Licheng Rong Wang",
+    "tags": [
+      "bushing",
+      "excavator bushing",
+      "vibration damping",
+      "shock absorber",
+      "construction machinery parts",
+      "undercarriage"
+    ]
+  },
+  {
+    "id": "BUSH-003",
+    "title": "Excavator Bucket Bushing \u2013 Heavy-Duty Steel / 40Cr",
+    "slug": "excavator-bucket-bushing-heavy-duty-3",
+    "category": "Bushing",
+    "sub_category": "Bucket Bushing",
+    "description": "Durable excavator bucket bushing made from steel or 40Cr alloy, designed for high-load and impact applications in construction machinery.",
+    "features": [
+      "Forged steel or 40Cr composition",
+      "Shock absorbing and vibration resistant",
+      "Precision fit with high durability",
+      "Supports OEM customization"
+    ],
+    "applications": [
+      "Excavator arms",
+      "Track roller systems",
+      "Heavy-duty hinges",
+      "Loader pins"
+    ],
+    "specifications": {
+      "material": "Bronze / Rubber / Polyurethane / Steel-composite",
+      "weight": "0.5 \u2013 3.5 kg",
+      "dimensions": "Standard sizes or customizable",
+      "temperatureRange": "-30\u00b0C to +120\u00b0C",
+      "countryOfOrigin": "Zhejiang, China"
+    },
+    "images": [
+      "/images/products/14-bushing/bucket-bushing/p3/01.jpg",
+      "/images/products/14-bushing/bucket-bushing/p3/02.jpg",
+      "/images/products/14-bushing/bucket-bushing/p3/03.jpg",
+      "/images/products/14-bushing/bucket-bushing/p3/04.jpg",
+      "/images/products/14-bushing/bucket-bushing/p3/05.jpg"
+    ],
+    "videos": [],
+    "certifications": [
+      "ISO 9001 Compliant",
+      "OEM Manufacturing",
+      "Heavy-Duty Grade Certified"
+    ],
+    "availability": "In Stock",
+    "brand": "Licheng Rong Wang",
+    "tags": [
+      "bushing",
+      "excavator bushing",
+      "vibration damping",
+      "shock absorber",
+      "construction machinery parts",
+      "undercarriage"
+    ]
+  },
+  {
+    "id": "BUSH-004",
+    "title": "Excavator Bucket Bushing \u2013 Heavy-Duty Steel / 40Cr",
+    "slug": "excavator-bucket-bushing-heavy-duty-4",
+    "category": "Bushing",
+    "sub_category": "Bucket Bushing",
+    "description": "Durable excavator bucket bushing made from steel or 40Cr alloy, designed for high-load and impact applications in construction machinery.",
+    "features": [
+      "Forged steel or 40Cr composition",
+      "Shock absorbing and vibration resistant",
+      "Precision fit with high durability",
+      "Supports OEM customization"
+    ],
+    "applications": [
+      "Excavator arms",
+      "Track roller systems",
+      "Heavy-duty hinges",
+      "Loader pins"
+    ],
+    "specifications": {
+      "material": "Bronze / Rubber / Polyurethane / Steel-composite",
+      "weight": "0.5 \u2013 3.5 kg",
+      "dimensions": "Standard sizes or customizable",
+      "temperatureRange": "-30\u00b0C to +120\u00b0C",
+      "countryOfOrigin": "Zhejiang, China"
+    },
+    "images": [
+      "/images/products/14-bushing/bucket-bushing/p4/01.jpg",
+      "/images/products/14-bushing/bucket-bushing/p4/02.jpg",
+      "/images/products/14-bushing/bucket-bushing/p4/03.jpg",
+      "/images/products/14-bushing/bucket-bushing/p4/04.jpg",
+      "/images/products/14-bushing/bucket-bushing/p4/05.jpg"
+    ],
+    "videos": [],
+    "certifications": [
+      "ISO 9001 Compliant",
+      "OEM Manufacturing",
+      "Heavy-Duty Grade Certified"
+    ],
+    "availability": "In Stock",
+    "brand": "Licheng Rong Wang",
+    "tags": [
+      "bushing",
+      "excavator bushing",
+      "vibration damping",
+      "shock absorber",
+      "construction machinery parts",
+      "undercarriage"
+    ]
+  },
+  {
+    "id": "BUSH-005",
+    "title": "Excavator Bucket Bushing \u2013 Heavy-Duty Steel / 40Cr",
+    "slug": "excavator-bucket-bushing-heavy-duty-5",
+    "category": "Bushing",
+    "sub_category": "Bucket Bushing",
+    "description": "Durable excavator bucket bushing made from steel or 40Cr alloy, designed for high-load and impact applications in construction machinery.",
+    "features": [
+      "Forged steel or 40Cr composition",
+      "Shock absorbing and vibration resistant",
+      "Precision fit with high durability",
+      "Supports OEM customization"
+    ],
+    "applications": [
+      "Excavator arms",
+      "Track roller systems",
+      "Heavy-duty hinges",
+      "Loader pins"
+    ],
+    "specifications": {
+      "material": "Bronze / Rubber / Polyurethane / Steel-composite",
+      "weight": "0.5 \u2013 3.5 kg",
+      "dimensions": "Standard sizes or customizable",
+      "temperatureRange": "-30\u00b0C to +120\u00b0C",
+      "countryOfOrigin": "Zhejiang, China"
+    },
+    "images": [
+      "/images/products/14-bushing/bucket-bushing/p5/01.png",
+      "/images/products/14-bushing/bucket-bushing/p5/02.jpg",
+      "/images/products/14-bushing/bucket-bushing/p5/03.jpg",
+      "/images/products/14-bushing/bucket-bushing/p5/04.jpg",
+      "/images/products/14-bushing/bucket-bushing/p5/05.jpg"
+    ],
+    "videos": [],
     "certifications": [
       "ISO 9001 Compliant",
       "OEM Manufacturing",
