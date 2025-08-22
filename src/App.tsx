@@ -27,6 +27,7 @@ import InstallationServices from "./pages/InstallationServices";
 import ImportExportAgency from "./pages/ImportExportAgency";
 import InternationalLogistics from "./pages/InternationalLogistics";
 import ExcavatorPartsMap from "./pages/ExcavatorPartsMap";
+import PlumbingPipingPage from "./components/PlumbingPipingPage";
 
 const queryClient = new QueryClient();
 
@@ -47,6 +48,7 @@ const App = () => (
               <Route path="/quote" element={<Quote />} />
               <Route path="/consultation" element={<Consultation />} />
               <Route path="/category/:slug" element={<CategoryPage />} />
+              <Route path="/category/plumbing-piping" element={<PlumbingPipingPage />} />
               <Route path="/products/categories" element={<AllCategoriesPage />} />
               <Route path="/products" element={<ProductCategories />} />
               <Route path="/product/:slug" element={<Product />} />

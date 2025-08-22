@@ -8166,6 +8166,50 @@
     "excavator bolt",
     "track shoe bolt"
   ]
+},
+{
+  "id": "PLB-001",
+  "title": "Adjustable Pressure Reducing Valve",
+  "slug": "adjustable-pressure-reducing-valve",
+  "category": "Plumbing & Piping",
+  "sub_category": "Valves",
+  "description": "High-quality adjustable pressure reducing valve designed for industrial plumbing systems. Provides precise pressure control and reliable performance.",
+  "features": [
+    "Adjustable pressure range: 0.5-16 bar",
+    "Bronze body construction",
+    "Stainless steel internal components",
+    "Easy adjustment mechanism",
+    "Compact design for space-saving installation"
+  ],
+  "applications": [
+    "Industrial water systems",
+    "Commercial plumbing",
+    "Fire protection systems",
+    "HVAC applications"
+  ],
+  "specifications": {
+    "material": "Bronze body, Stainless steel internals",
+    "pressureRange": "0.5-16 bar",
+    "temperatureRange": "-10°C to +80°C",
+    "connectionType": "Threaded",
+    "countryOfOrigin": "Zhejiang, China"
+  },
+  "images": [
+    "/images/plumbing/Adjustable pressure reducing valve(1).png"
+  ],
+  "videos": [],
+  "certifications": [
+    "ISO 9001",
+    "CE Certified"
+  ],
+  "availability": "In Stock",
+  "brand": "Licheng Rongwang",
+  "tags": [
+    "pressure valve",
+    "reducing valve",
+    "plumbing valve",
+    "industrial valve"
+  ]
 }
 
 
