@@ -14,7 +14,7 @@ const AboutSection: React.FC = () => {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <Badge className="mb-4 bg-blue-100 text-blue-800">About Our Company</Badge>
+          <Badge className="mb-4 bg-orange-100 text-orange-800">About Our Company</Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Trusted Manufacturing Partner
           </h2>
@@ -27,7 +27,7 @@ const AboutSection: React.FC = () => {
           {stats.map((stat, index) => (
             <Card key={index} className="text-center p-6 hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <div className="text-3xl font-bold text-blue-600 mb-2">{stat.number}</div>
+                <div className="text-3xl font-bold text-orange-600 mb-2">{stat.number}</div>
                 <div className="text-gray-600">{stat.label}</div>
               </CardContent>
             </Card>

@@ -47,7 +47,7 @@ const FAQSection: React.FC = () => {
           <Accordion type="single" collapsible className="space-y-4">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="border rounded-lg px-6">
-                <AccordionTrigger className="text-left font-semibold text-gray-900 hover:text-blue-600">
+                <AccordionTrigger className="text-left font-semibold text-gray-900 hover:text-orange-600">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-2">

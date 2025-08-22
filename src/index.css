@@ -107,7 +107,7 @@
 }
 
 .markdown-preview {
-  @apply prose max-w-none prose-blue dark:prose-invert;
+  @apply prose max-w-none prose-orange dark:prose-invert;
 }
 
 .markdown-preview pre {

@@ -10,6 +10,7 @@ const ImportExportAgency = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
+       <main className="mt-20"> 
       <section className="bg-gradient-to-r from-orange-50 to-yellow-50 py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -118,6 +119,7 @@ const ImportExportAgency = () => {
           </Button>
         </div>
       </section>
+      </main>
       <Footer />
     </div>
   );

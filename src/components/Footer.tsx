@@ -89,10 +89,14 @@ export const Footer: React.FC = () => {
                 <Mail className="w-4 h-4 text-yellow-400" />
                 <span className="text-white/70 text-sm">guishengchen76@gmail.com</span>
               </li>
-              <li className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-yellow-400" />
-                <span className="text-white/70 text-sm">+86 18750503103</span>
-              </li>
+              <div>
+                <h5 className="text-white/70 mb-2">Cell Phone / WeChat / Whatsapp</h5>
+                <li className="flex items-center space-x-3">
+                  <Phone className="w-4 h-4 text-yellow-400" />
+                  <span className="text-white/70 text-sm">+86 18750503103</span>
+                </li>
+              </div>
+
               <li className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-yellow-400 mt-1" />
                 <span className="text-white/70 text-sm">

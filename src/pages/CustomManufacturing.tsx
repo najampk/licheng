@@ -10,6 +10,7 @@ const CustomManufacturing = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
+       <main className="mt-20"> 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-orange-50 to-yellow-50 py-20">
         <div className="container mx-auto px-4 text-center">
@@ -149,6 +150,7 @@ const CustomManufacturing = () => {
           </Button>
         </div>
       </section>
+      </main>
       <Footer />
     </div>
   );

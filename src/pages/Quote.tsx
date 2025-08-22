@@ -19,7 +19,7 @@ const Quote = () => {
       </Helmet>
       
       <Header />
-      
+       <main className="mt-20">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16 pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -177,6 +177,7 @@ const Quote = () => {
           </div>
         </div>
       </section>
+      </main>
       
       <Footer />
     </div>

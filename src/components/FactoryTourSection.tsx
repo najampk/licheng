@@ -56,14 +56,14 @@ const FactoryTourSection: React.FC = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 to-blue-900 text-white">
+    <section className="py-20 bg-gradient-to-br from-gray-900 to-orange-900 text-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <Badge className="mb-4 bg-orange-100 text-orange-800">Virtual Tour</Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Explore Our Manufacturing Facility
           </h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+          <p className="text-xl text-orange-100 max-w-3xl mx-auto">
             Take a virtual tour of our world-class manufacturing facility and see how we maintain the highest quality standards.
           </p>
         </div>
@@ -99,7 +99,7 @@ const FactoryTourSection: React.FC = () => {
                   <h3 className="text-lg font-semibold mb-2 group-hover:text-orange-300 transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-blue-100 text-sm">{item.description}</p>
+                  <p className="text-orange-100 text-sm">{item.description}</p>
                 </div>
               </CardContent>
             </Card>

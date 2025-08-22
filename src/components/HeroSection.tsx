@@ -1,11 +1,26 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { ChevronDown, Wrench, Package, Droplets, Zap, Cog } from 'lucide-react'
 import { Badge } from '@/components/ui/badge';
 
 const HeroSection: React.FC = () => {
+   const [bgImage, setBgImage] = useState<string>('')
+
+    useEffect(() => {
+    const images = [
+      '/images/heavy-machinery-part-3.jpg',
+      '/images/heavy-machinery-part-4.jpg',
+      '/images/heavy-machinery-part-5.jpg',
+      '/images/licheng-2.webp',
+      '/images/licheng-trading-img.webp'
+    ]
+    
+    const randomImage = images[Math.floor(Math.random() * images.length)];
+    setBgImage(randomImage);
+  }, [])
+
   const scrollToSection = () => {
     const section = document.getElementById('about');
     if (section) {
@@ -40,17 +55,19 @@ const HeroSection: React.FC = () => {
           })
         }}
       />
-      
-      <section className="relative min-h-screen flex items-center overflow-hidden">
-        {/* Hero Background with Industrial Machinery */}
-        <div 
-          className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0"
+
+      <section className="relative min-h-screen flex items-center overflow-hidden" aria-labelledby="hero-section">
+
+        {/* Hero Background with Randomized Image */}
+        <div
+          className={`absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0 transition-opacity duration-1000 ease-in-out`}
           style={{
-            backgroundImage: `linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 50%, rgba(255,165,0,0.1) 100%), url('/images/heavy-machinery-part-3.jpg')`,
+            backgroundImage: `linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 50%, rgba(255,165,0,0.1) 100%), url('${bgImage}')`,
             backgroundPosition: 'right center',
-            filter: 'blur(1px)'
+            filter: 'blur(1px)',
           }}
         ></div>
+
 
 
         {/* Content overlay with clear contrast */}
@@ -62,9 +79,10 @@ const HeroSection: React.FC = () => {
             <Badge className="mb-4 bg-orange-500 text-white hover:bg-orange-400">Industrial Trading Solutions</Badge>
             
             {/* Heading - SEO Optimized */}
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-orange-400 to-yellow-300 bg-clip-text text-transparent leading-tight">
-              Licheng Rongwang Trading Co., Ltd.
-            </h1>
+           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-orange-400 to-yellow-300 bg-clip-text text-transparent leading-tight">
+            Licheng Rongwang <br />
+            Trading Co., Ltd.
+          </h1>
 
             {/* Subheading - AI-SEO Optimized */}
             <p className="text-base sm:text-lg md:text-xl text-gray-100 mb-8 px-2 max-w-2xl">
@@ -108,9 +126,6 @@ const HeroSection: React.FC = () => {
                 Our Capabilities
               </Button>
             </div>
-
-           
-
           </div>
         </div>
       </section>

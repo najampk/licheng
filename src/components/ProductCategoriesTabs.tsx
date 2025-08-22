@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Wrench, Package, Droplets, Zap, Cog, Star, Mail, Phone } from 'lucide-react';
-import { sampleProduct } from '@/data/products';
+import allProducts from '@/data/products.json';
 
 const categories = [
   {
@@ -12,8 +12,8 @@ const categories = [
     name: 'Heavy Machinery Parts',
     icon: Wrench,
     description: 'Professional grade components for heavy construction and mining equipment',
-    products: [sampleProduct],
-    color: 'from-blue-600 to-blue-700'
+    products: allProducts,
+    color: 'from-orange-600 to-orange-700'
   },
   {
     id: 'packaging',

@@ -7,18 +7,18 @@
     "description": "Boost your reach and performance with our heavy-duty extended arms for excavators."
   },
   {
-    "title": "Swing Stand",
-    "slug": "swing-stand",
-    "categorySlug": "swing-stand",
+    "title": "Slewing Bearing",
+    "slug": "slewing-bearing",
+    "categorySlug": "slewing-bearing",
     "image": "/images/products/02-swing-stand/p1/01.png",
-    "description": "Durable swing stands engineered for stability and smooth rotational performance."
+    "description": "Durable Slewing Bearings engineered for stability and smooth rotational performance."
   },
   {
-    "title": "Hydraulic Seal Kits",
-    "slug": "hydraulic-seal-kits",
-    "categorySlug": "hydraulic-seal-kits",
+    "title": "Filters",
+    "slug": "filters",
+    "categorySlug": "filters",
     "image": "/images/products/03-hydraulic-seal kits/p1/01.png",
-    "description": "Reliable hydraulic seal kits to prevent leaks and maintain pressure integrity."
+    "description": "Reliable Filters to prevent leaks and maintain pressure integrity."
   },
   {
     "title": "Hydraulic Pumps",
@@ -49,9 +49,9 @@
     "description": "Abrasion-resistant cutting edges ideal for construction and earthmoving machinery."
   },
   {
-    "title": "Bulldozer Tooth",
-    "slug": "bulldozer-tooth",
-    "categorySlug": "bulldozer-tooth",
+    "title": "Tooth Lock",
+    "slug": "tooth-lock",
+    "categorySlug": "tooth-lock",
     "image": "/images/products/08-bulldozer-tooth/p1/01.jpg",
     "description": "Hardened bulldozer teeth built for penetration and long-lasting durability."
   },
@@ -70,25 +70,25 @@
     "description": "High-traction, wear-resistant rubber tracks for compact and full-size machinery."
   },
   {
-    "title": "Rubber Pig Pillow",
-    "slug": "rubber-pig-pillow",
-    "categorySlug": "rubber-pig-pillow",
+    "title": "Rubber Track Pad",
+    "slug": "rubber-track-pad",
+    "categorySlug": "rubber-track-pad",
     "image": "/images/products/11-rubber-pig-pillow/p1/01.jpg",
-    "description": "Shock-absorbing rubber pig pillows for vibration control in tracked equipment."
+    "description": "Shock-absorbing Rubber Track Pads for vibration control in tracked equipment."
   },
   {
-    "title": "Bucket Accessories",
-    "slug": "bucket-accessories",
-    "categorySlug": "bucket-accessories",
+    "title": "Bucket Pins",
+    "slug": "bucket-pin",
+    "categorySlug": "bucket-pin",
     "image": "/images/products/12-bucket/p1/01.jpg",
-    "description": "Versatile bucket accessories to enhance digging, grading, and material handling."
+    "description": "Versatile bucket pins to enhance digging, grading, and material handling."
   },
   {
-    "title": "H Connector",
+    "title": "H Link & I Link",
     "slug": "h-connector",
     "categorySlug": "h-connector",
     "image": "/images/products/13-h-connector/p1/01.jpg",
-    "description": "Heavy-duty H connectors for secure mechanical linkages in demanding environments."
+    "description": "Heavy-duty H Link & I Links for secure mechanical linkages in demanding environments."
   },
   {
     "title": "Bushing",
@@ -96,5 +96,12 @@
     "categorySlug": "bushing",
     "image": "/images/products/14-bushing/p1/01.png",
     "description": "High-precision bushings for reducing friction and extending component life."
+  },
+  {
+    "title": "Bolts and Nut",
+    "slug": "bolt-and-nut",
+    "categorySlug": "bolts-and-nuts",
+    "image": "/images/products/15-bolt-and-nut/p1/02.jpg",
+    "description": "Premium-grade hex flange bolt with washer included."
   }
 ]

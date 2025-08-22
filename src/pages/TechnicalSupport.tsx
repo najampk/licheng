@@ -11,6 +11,7 @@ const TechnicalSupport = () => {
     <div className="min-h-screen bg-white">
       <Header />
       {/* Hero Section */}
+       <main className="mt-20"> 
       <section className="bg-gradient-to-r from-orange-50 to-yellow-50 py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -149,7 +150,7 @@ const TechnicalSupport = () => {
                 </div>
                 <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
                   <span>Remote Sessions</span>
-                  <Badge className="bg-blue-500">Same day</Badge>
+                  <Badge className="bg-orange-500">Same day</Badge>
                 </div>
                 <div className="flex justify-between items-center p-4 bg-gray-50 rounded-lg">
                   <span>On-site Visits</span>
@@ -178,6 +179,7 @@ const TechnicalSupport = () => {
           </div>
         </div>
       </section>
+      </main>
       <Footer />
     </div>
   );

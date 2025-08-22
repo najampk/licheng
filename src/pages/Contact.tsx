@@ -19,6 +19,7 @@ const Contact = () => {
       </Helmet>
       
       <Header />
+      <main className="mt-20">
       
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16 pt-24">
@@ -108,13 +109,17 @@ const Contact = () => {
                     </div>
                   </div>
                   
-                  <div className="flex items-center space-x-3">
-                    <Phone className="h-5 w-5 text-orange-500" />
-                    <div>
-                      <p className="font-medium text-black">Phone</p>
-                      <p className="text-gray-600 text-sm">+86 18750503103</p>
-                    </div>
+                <div>
+                <h4 className="text-black font-medium mb-2">Cell Phone / WeChat / Whatsapp</h4>
+                <div className="flex items-center space-x-3">
+                  <Phone className="h-5 w-5 text-orange-500" />
+                  <div>
+                    <p className="font-medium text-black">Phone</p>
+                    <p className="text-gray-600 text-sm">+86 18750503103</p>
                   </div>
+                </div>
+              </div>
+
                   
                   <div className="pt-4 border-t">
                     <p className="text-sm text-gray-600">
@@ -158,6 +163,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      </main>
       
       <Footer />
     </div>
