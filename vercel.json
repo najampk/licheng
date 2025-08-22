@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "api/sendInquiry.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "rewrites": [
     {
       "source": "/api/(.*)",
